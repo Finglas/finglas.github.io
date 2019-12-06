@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Shaun Finglas - 2013</title><link href="/" rel="alternate"></link><link href="/feeds/2013.atom.xml" rel="self"></link><id>/</id><updated>2013-05-01T00:00:00+02:00</updated><entry><title>The Anti If Campaign</title><link href="/2013/05/the-anti-if-campaign.html" rel="alternate"></link><published>2013-05-01T00:00:00+02:00</published><updated>2013-05-01T00:00:00+02:00</updated><author><name>Shaun Finglas</name></author><id>tag:None,2013-05-01:/2013/05/the-anti-if-campaign.html</id><summary type="html">&lt;p&gt;Firstly if you are unaware of what the &lt;a href="http://www.antiifcampaign.com/"&gt;Anti If
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Shaun Finglas - 2013</title><link href="https://blog.shaunfinglas.co.uk/" rel="alternate"></link><link href="https://blog.shaunfinglas.co.uk/feeds/2013.atom.xml" rel="self"></link><id>https://blog.shaunfinglas.co.uk/</id><updated>2013-05-01T00:00:00+02:00</updated><entry><title>The Anti If Campaign</title><link href="https://blog.shaunfinglas.co.uk/2013/05/the-anti-if-campaign.html" rel="alternate"></link><published>2013-05-01T00:00:00+02:00</published><updated>2013-05-01T00:00:00+02:00</updated><author><name>Shaun Finglas</name></author><id>tag:blog.shaunfinglas.co.uk,2013-05-01:/2013/05/the-anti-if-campaign.html</id><summary type="html">&lt;p&gt;Firstly if you are unaware of what the &lt;a href="http://www.antiifcampaign.com/"&gt;Anti If
 Campaign&lt;/a&gt; is, I advise you to take look
 before coming back. My first impression a few years ago was the site
 must have been some sort of spoof. Programming without "if" statements,
@@ -51,7 +51,7 @@ retrieval of new quotes, I can easily debug and fix the issue. Likewise
 if we wish to extend the lookup of existing quotes, I can confidently
 change the code without the fear of breaking the retrieval of new
 quotes. The other side effect is that I can easily reason about and test
-the code in question.&lt;/p&gt;</content><category term="programming"></category></entry><entry><title>3 Years at Codeweavers</title><link href="/2013/04/3-years-at-codeweavers.html" rel="alternate"></link><published>2013-04-01T00:00:00+02:00</published><updated>2013-04-01T00:00:00+02:00</updated><author><name>Shaun Finglas</name></author><id>tag:None,2013-04-01:/2013/04/3-years-at-codeweavers.html</id><summary type="html">&lt;p&gt;Having wrote about the &lt;a href="https://blog.shaunfinglas.co.uk/2011/08/ten-things-graduate-will-experience.html"&gt;top ten things I discovered in my first year at
+the code in question.&lt;/p&gt;</content><category term="programming"></category></entry><entry><title>3 Years at Codeweavers</title><link href="https://blog.shaunfinglas.co.uk/2013/04/3-years-at-codeweavers.html" rel="alternate"></link><published>2013-04-01T00:00:00+02:00</published><updated>2013-04-01T00:00:00+02:00</updated><author><name>Shaun Finglas</name></author><id>tag:blog.shaunfinglas.co.uk,2013-04-01:/2013/04/3-years-at-codeweavers.html</id><summary type="html">&lt;p&gt;Having wrote about the &lt;a href="https://blog.shaunfinglas.co.uk/2011/08/ten-things-graduate-will-experience.html"&gt;top ten things I discovered in my first year at
 Codeweavers&lt;/a&gt;,
 I figured it would be time for a follow up after the past two years. In
 no particular order, a collection of the biggest lessons I have
@@ -86,7 +86,7 @@ experienced.&lt;/p&gt;
 &lt;li&gt;&lt;a href="https://blog.shaunfinglas.co.uk/2014/10/practice-practice-practice.html"&gt;Practice, Practice,
     Practice&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;I'll expand on these topics over time in future posts.&lt;/p&gt;</content><category term="retro"></category></entry><entry><title>Why are you not using Design by Contract?</title><link href="/2013/04/why-are-you-not-using-design-by-contract.html" rel="alternate"></link><published>2013-04-01T00:00:00+02:00</published><updated>2013-04-01T00:00:00+02:00</updated><author><name>Shaun Finglas</name></author><id>tag:None,2013-04-01:/2013/04/why-are-you-not-using-design-by-contract.html</id><summary type="html">&lt;p&gt;When learning to program I distinctly remember coming across the concept
+&lt;p&gt;I'll expand on these topics over time in future posts.&lt;/p&gt;</content><category term="retro"></category></entry><entry><title>Why are you not using Design by Contract?</title><link href="https://blog.shaunfinglas.co.uk/2013/04/why-are-you-not-using-design-by-contract.html" rel="alternate"></link><published>2013-04-01T00:00:00+02:00</published><updated>2013-04-01T00:00:00+02:00</updated><author><name>Shaun Finglas</name></author><id>tag:blog.shaunfinglas.co.uk,2013-04-01:/2013/04/why-are-you-not-using-design-by-contract.html</id><summary type="html">&lt;p&gt;When learning to program I distinctly remember coming across the concept
 of placing asserts within your code. Assert statements are primarily
 used for "&lt;em&gt;things that cannot happen&lt;/em&gt;", but in my early days I was too
 focused on the stuff that was supposed to happen!&lt;/p&gt;
@@ -151,7 +151,7 @@ boundary conditions can easily be detected.&lt;/p&gt;
 &lt;p&gt;Hand in hand with our automated test suite, &lt;strong&gt;code contracts make a
 great companion&lt;/strong&gt;. Never alone will one suffice, but when used in
 conjunction they can be extremely powerful. So the question is, why
-aren't you using them?&lt;/p&gt;</content><category term="programming"></category></entry><entry><title>Object Calisthenics</title><link href="/2013/01/object-calisthenics.html" rel="alternate"></link><published>2013-01-01T00:00:00+01:00</published><updated>2013-01-01T00:00:00+01:00</updated><author><name>Shaun Finglas</name></author><id>tag:None,2013-01-01:/2013/01/object-calisthenics.html</id><summary type="html">&lt;p&gt;Recently I ran a session on &lt;a href="http://www.markhneedham.com/blog/2008/11/06/object-calisthenics-first-thoughts/"&gt;Object
+aren't you using them?&lt;/p&gt;</content><category term="programming"></category></entry><entry><title>Object Calisthenics</title><link href="https://blog.shaunfinglas.co.uk/2013/01/object-calisthenics.html" rel="alternate"></link><published>2013-01-01T00:00:00+01:00</published><updated>2013-01-01T00:00:00+01:00</updated><author><name>Shaun Finglas</name></author><id>tag:blog.shaunfinglas.co.uk,2013-01-01:/2013/01/object-calisthenics.html</id><summary type="html">&lt;p&gt;Recently I ran a session on &lt;a href="http://www.markhneedham.com/blog/2008/11/06/object-calisthenics-first-thoughts/"&gt;Object
 Calisthenics&lt;/a&gt;.
 I was first exposed to this challenge a few years ago and personally
 found it a fun, yet difficult experience. This is intentional as the

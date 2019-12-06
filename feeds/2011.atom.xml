@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Shaun Finglas - 2011</title><link href="/" rel="alternate"></link><link href="/feeds/2011.atom.xml" rel="self"></link><id>/</id><updated>2011-12-01T00:00:00+01:00</updated><entry><title>6 Ways to Speed Up Selenium Tests</title><link href="/2011/12/6-ways-to-speed-up-selenium-tests.html" rel="alternate"></link><published>2011-12-01T00:00:00+01:00</published><updated>2011-12-01T00:00:00+01:00</updated><author><name>Shaun Finglas</name></author><id>tag:None,2011-12-01:/2011/12/6-ways-to-speed-up-selenium-tests.html</id><summary type="html">&lt;p&gt;&lt;a href="https://blog.shaunfinglas.co.uk/2011/12/how-to-achieve-more-stable-end-to-end.html"&gt;Having finally achieved more stable end to end
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Shaun Finglas - 2011</title><link href="https://blog.shaunfinglas.co.uk/" rel="alternate"></link><link href="https://blog.shaunfinglas.co.uk/feeds/2011.atom.xml" rel="self"></link><id>https://blog.shaunfinglas.co.uk/</id><updated>2011-12-01T00:00:00+01:00</updated><entry><title>6 Ways to Speed Up Selenium Tests</title><link href="https://blog.shaunfinglas.co.uk/2011/12/6-ways-to-speed-up-selenium-tests.html" rel="alternate"></link><published>2011-12-01T00:00:00+01:00</published><updated>2011-12-01T00:00:00+01:00</updated><author><name>Shaun Finglas</name></author><id>tag:blog.shaunfinglas.co.uk,2011-12-01:/2011/12/6-ways-to-speed-up-selenium-tests.html</id><summary type="html">&lt;p&gt;&lt;a href="https://blog.shaunfinglas.co.uk/2011/12/how-to-achieve-more-stable-end-to-end.html"&gt;Having finally achieved more stable end to end
 tests&lt;/a&gt;
 via Selenium, we figured it would be worth while sharing how we achieved
 this. The following are six steps we've found that you can do to make
@@ -65,7 +65,7 @@ seems to be the most optimal solution currently.&lt;/p&gt;
 &lt;p&gt;Having done these at some point over the past few months we're starting
 to get to a more stable point with our Selenium tests. We'll be looking
 to take this forward with future tests and hope to enjoy continued
-stability.&lt;/p&gt;</content><category term="tutorial"></category><category term="testing"></category></entry><entry><title>How to Achieve More Stable End to End Tests</title><link href="/2011/12/how-to-achieve-more-stable-end-to-end.html" rel="alternate"></link><published>2011-12-01T00:00:00+01:00</published><updated>2011-12-01T00:00:00+01:00</updated><author><name>Shaun Finglas</name></author><id>tag:None,2011-12-01:/2011/12/how-to-achieve-more-stable-end-to-end.html</id><summary type="html">&lt;p&gt;Recently myself and another colleague wrote an &lt;a href="http://en.wikipedia.org/wiki/Acceptance_testing"&gt;acceptance
+stability.&lt;/p&gt;</content><category term="tutorial"></category><category term="testing"></category></entry><entry><title>How to Achieve More Stable End to End Tests</title><link href="https://blog.shaunfinglas.co.uk/2011/12/how-to-achieve-more-stable-end-to-end.html" rel="alternate"></link><published>2011-12-01T00:00:00+01:00</published><updated>2011-12-01T00:00:00+01:00</updated><author><name>Shaun Finglas</name></author><id>tag:blog.shaunfinglas.co.uk,2011-12-01:/2011/12/how-to-achieve-more-stable-end-to-end.html</id><summary type="html">&lt;p&gt;Recently myself and another colleague wrote an &lt;a href="http://en.wikipedia.org/wiki/Acceptance_testing"&gt;acceptance
 test&lt;/a&gt; for a feature
 that had yet to be implemented. For this end to end test we used
 &lt;a href="http://seleniumhq.org/"&gt;Selenium&lt;/a&gt;, after all we wanted to test the
@@ -135,7 +135,7 @@ scenes, as long as the API remains constant, our tests should always be
 valid.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;For the technical low down on some of the ways we are achieving more
 stable end to end tests, check out &lt;a href="6-ways-to-speed-up-selenium-tests.html"&gt;six tips to speed up Selenium
-tests&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;</content><category term="tutorial"></category><category term="testing"></category></entry><entry><title>Smalltalk Conversion mapped to C#</title><link href="/2011/10/smalltalk-conversion-mapped-to-c.html" rel="alternate"></link><published>2011-10-01T00:00:00+02:00</published><updated>2011-10-01T00:00:00+02:00</updated><author><name>Shaun Finglas</name></author><id>tag:None,2011-10-01:/2011/10/smalltalk-conversion-mapped-to-c.html</id><summary type="html">&lt;p&gt;Lately the team has been making some rather drastic changes and
+tests&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;</content><category term="tutorial"></category><category term="testing"></category></entry><entry><title>Smalltalk Conversion mapped to C#</title><link href="https://blog.shaunfinglas.co.uk/2011/10/smalltalk-conversion-mapped-to-c.html" rel="alternate"></link><published>2011-10-01T00:00:00+02:00</published><updated>2011-10-01T00:00:00+02:00</updated><author><name>Shaun Finglas</name></author><id>tag:blog.shaunfinglas.co.uk,2011-10-01:/2011/10/smalltalk-conversion-mapped-to-c.html</id><summary type="html">&lt;p&gt;Lately the team has been making some rather drastic changes and
 re-designs to our codebase in an attempt to minimise friction to change.
 In other words, we've identified areas that are painful or tedious to
 work in and have hopefully rectified them by re-writing the code. The
@@ -236,7 +236,7 @@ we would end up with a third place to maintain if we decided to add a
 new property to our &lt;code&gt;QuoteRecord&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;I'll admit to having only used this technique for a week or so, though
 so far it has worked a treat and I expect it to continue working
-considering these techniques have stood the test of time.&lt;/p&gt;</content><category term="programming"></category></entry><entry><title>The Best Code is Written Twice</title><link href="/2011/10/the-best-code-is-written-twice.html" rel="alternate"></link><published>2011-10-01T00:00:00+02:00</published><updated>2011-10-01T00:00:00+02:00</updated><author><name>Shaun Finglas</name></author><id>tag:None,2011-10-01:/2011/10/the-best-code-is-written-twice.html</id><summary type="html">&lt;p&gt;Recently myself and two colleges completed a new feature in an
+considering these techniques have stood the test of time.&lt;/p&gt;</content><category term="programming"></category></entry><entry><title>The Best Code is Written Twice</title><link href="https://blog.shaunfinglas.co.uk/2011/10/the-best-code-is-written-twice.html" rel="alternate"></link><published>2011-10-01T00:00:00+02:00</published><updated>2011-10-01T00:00:00+02:00</updated><author><name>Shaun Finglas</name></author><id>tag:blog.shaunfinglas.co.uk,2011-10-01:/2011/10/the-best-code-is-written-twice.html</id><summary type="html">&lt;p&gt;Recently myself and two colleges completed a new feature in an
 afternoon's programming session. Despite this we ended up binning the
 feature after all agreeing it was horribly complicated and in turn would
 cause far more problems down the road than it would solve.&lt;/p&gt;
@@ -281,7 +281,7 @@ feature in less time, at much higher quality.&lt;/p&gt;
 solutions&lt;/a&gt; are often
 a more suitable process to ease the development process, but in certain
 cases practice makes perfect, even if it means you wait that little bit
-longer for the perfect ceiling.&lt;/p&gt;</content><category term="programming"></category><category term="retro"></category></entry><entry><title>Ten Things a graduate will experience during their first year at Codeweavers</title><link href="/2011/08/ten-things-graduate-will-experience.html" rel="alternate"></link><published>2011-08-01T00:00:00+02:00</published><updated>2011-08-01T00:00:00+02:00</updated><author><name>Shaun Finglas</name></author><id>tag:None,2011-08-01:/2011/08/ten-things-graduate-will-experience.html</id><summary type="html">&lt;ol&gt;
+longer for the perfect ceiling.&lt;/p&gt;</content><category term="programming"></category><category term="retro"></category></entry><entry><title>Ten Things a graduate will experience during their first year at Codeweavers</title><link href="https://blog.shaunfinglas.co.uk/2011/08/ten-things-graduate-will-experience.html" rel="alternate"></link><published>2011-08-01T00:00:00+02:00</published><updated>2011-08-01T00:00:00+02:00</updated><author><name>Shaun Finglas</name></author><id>tag:blog.shaunfinglas.co.uk,2011-08-01:/2011/08/ten-things-graduate-will-experience.html</id><summary type="html">&lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;Kanban&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;The importance of value and flow are the heart of day to day running
@@ -435,7 +435,7 @@ day software development. For this very reason I'm grateful, but
 this rule bears repeating and I look forward to another year of
 practice and improvement.&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ol&gt;</content><category term="retro"></category></entry><entry><title>Mapping Objects via TDD</title><link href="/2011/06/mapping-objects-via-tdd.html" rel="alternate"></link><published>2011-06-01T00:00:00+02:00</published><updated>2011-06-01T00:00:00+02:00</updated><author><name>Shaun Finglas</name></author><id>tag:None,2011-06-01:/2011/06/mapping-objects-via-tdd.html</id><summary type="html">&lt;h3&gt;Why we map?&lt;/h3&gt;
+&lt;/ol&gt;</content><category term="retro"></category></entry><entry><title>Mapping Objects via TDD</title><link href="https://blog.shaunfinglas.co.uk/2011/06/mapping-objects-via-tdd.html" rel="alternate"></link><published>2011-06-01T00:00:00+02:00</published><updated>2011-06-01T00:00:00+02:00</updated><author><name>Shaun Finglas</name></author><id>tag:blog.shaunfinglas.co.uk,2011-06-01:/2011/06/mapping-objects-via-tdd.html</id><summary type="html">&lt;h3&gt;Why we map?&lt;/h3&gt;
 &lt;p&gt;Many times at Codeweavers we often have tasks which involve mapping
 between various objects. It is no secret that I dislike such tasks. The
 reason we map between objects though is actually a good thing as pointed
@@ -537,7 +537,7 @@ pretty weak, though the error output you receive when developing is
 outstanding. Each failed test will indicate in plain English what is
 wrong, and better yet how to solve it. A few of us are pretty excited
 about AutoMapper and I look forward to mapping again in the future,
-something I feel odd stating. Yes, this tool is that good.&lt;/p&gt;</content><category term="programming"></category></entry><entry><title>Unit Testing C# attributes</title><link href="/2011/05/unit-testing-c-attributes.html" rel="alternate"></link><published>2011-05-01T00:00:00+02:00</published><updated>2011-05-01T00:00:00+02:00</updated><author><name>Shaun Finglas</name></author><id>tag:None,2011-05-01:/2011/05/unit-testing-c-attributes.html</id><summary type="html">&lt;p&gt;For a recent coding session I needed to handle an exception being thrown
+something I feel odd stating. Yes, this tool is that good.&lt;/p&gt;</content><category term="programming"></category></entry><entry><title>Unit Testing C# attributes</title><link href="https://blog.shaunfinglas.co.uk/2011/05/unit-testing-c-attributes.html" rel="alternate"></link><published>2011-05-01T00:00:00+02:00</published><updated>2011-05-01T00:00:00+02:00</updated><author><name>Shaun Finglas</name></author><id>tag:blog.shaunfinglas.co.uk,2011-05-01:/2011/05/unit-testing-c-attributes.html</id><summary type="html">&lt;p&gt;For a recent coding session I needed to handle an exception being thrown
 when some Json was incorrectly bound to a view model. With the framework
 we were using (&lt;a href="http://www.asp.net/mvc" title="ASP.NET MVC2"&gt;ASP.NET&lt;/a&gt; MVC2) I
 was unable to handle the exception at the controller level, nor could I
@@ -574,7 +574,7 @@ yet save me a long time figuring out why the error handling has broken.
 Plus being unit tests they execute in the blink of an eye, no need to
 write a regression test to check the redirection has been carried out.
 These tests are therefore more "documentation" of how the system should
-behave.&lt;/p&gt;</content><category term="testing"></category></entry><entry><title>Getters and Setters are Evil</title><link href="/2011/04/getters-and-setters-are-evil.html" rel="alternate"></link><published>2011-04-01T00:00:00+02:00</published><updated>2011-04-01T00:00:00+02:00</updated><author><name>Shaun Finglas</name></author><id>tag:None,2011-04-01:/2011/04/getters-and-setters-are-evil.html</id><summary type="html">&lt;p&gt;&lt;strong&gt;Update&lt;/strong&gt;: There is a &lt;a href="https://blog.shaunfinglas.co.uk/2015/04/getters-and-setters-are-evil-redux.html"&gt;new
+behave.&lt;/p&gt;</content><category term="testing"></category></entry><entry><title>Getters and Setters are Evil</title><link href="https://blog.shaunfinglas.co.uk/2011/04/getters-and-setters-are-evil.html" rel="alternate"></link><published>2011-04-01T00:00:00+02:00</published><updated>2011-04-01T00:00:00+02:00</updated><author><name>Shaun Finglas</name></author><id>tag:blog.shaunfinglas.co.uk,2011-04-01:/2011/04/getters-and-setters-are-evil.html</id><summary type="html">&lt;p&gt;&lt;strong&gt;Update&lt;/strong&gt;: There is a &lt;a href="https://blog.shaunfinglas.co.uk/2015/04/getters-and-setters-are-evil-redux.html"&gt;new
 version&lt;/a&gt;
 of this post.&lt;/p&gt;
 &lt;hr&gt;
@@ -644,7 +644,7 @@ state is a clear problem. The biggest lesson I've took away is that even
 for input/output the use of accessors is not required. As usual the
 Codeweavers saying of "&lt;em&gt;if it feels wrong, it probably is&lt;/em&gt;" still holds
 true and on that I'm off to try and write some proper OO code for the
-first time in six years...&lt;/p&gt;</content><category term="programming"></category></entry><entry><title>MBUnit to NUnit</title><link href="/2011/03/mbunit-to-nunit.html" rel="alternate"></link><published>2011-03-01T00:00:00+01:00</published><updated>2011-03-01T00:00:00+01:00</updated><author><name>Shaun Finglas</name></author><id>tag:None,2011-03-01:/2011/03/mbunit-to-nunit.html</id><summary type="html">&lt;p&gt;Over the last few weeks we've ported our tests from
+first time in six years...&lt;/p&gt;</content><category term="programming"></category></entry><entry><title>MBUnit to NUnit</title><link href="https://blog.shaunfinglas.co.uk/2011/03/mbunit-to-nunit.html" rel="alternate"></link><published>2011-03-01T00:00:00+01:00</published><updated>2011-03-01T00:00:00+01:00</updated><author><name>Shaun Finglas</name></author><id>tag:blog.shaunfinglas.co.uk,2011-03-01:/2011/03/mbunit-to-nunit.html</id><summary type="html">&lt;p&gt;Over the last few weeks we've ported our tests from
 &lt;a href="http://www.mbunit.com/"&gt;MBUnit&lt;/a&gt; to &lt;a href="http://www.nunit.org/"&gt;NUnit&lt;/a&gt;. This
 was done as after a quick spike it was seen that NUnit tests run almost
 fifty percent quicker. For example our common projects' test time went
@@ -704,7 +704,7 @@ essentially meaning we could switch test frameworks whenever. Is this
 overkill for most projects? Most likely, but it was something to
 consider especially for large applications. As who knows, maybe there
 will be an even faster framework out there that we can upgrade to again,
-next year...&lt;/p&gt;</content><category term="testing"></category><category term="programming"></category></entry><entry><title>Mock Roles not Types</title><link href="/2011/03/mock-roles-not-types.html" rel="alternate"></link><published>2011-03-01T00:00:00+01:00</published><updated>2011-03-01T00:00:00+01:00</updated><author><name>Shaun Finglas</name></author><id>tag:None,2011-03-01:/2011/03/mock-roles-not-types.html</id><summary type="html">&lt;blockquote&gt;
+next year...&lt;/p&gt;</content><category term="testing"></category><category term="programming"></category></entry><entry><title>Mock Roles not Types</title><link href="https://blog.shaunfinglas.co.uk/2011/03/mock-roles-not-types.html" rel="alternate"></link><published>2011-03-01T00:00:00+01:00</published><updated>2011-03-01T00:00:00+01:00</updated><author><name>Shaun Finglas</name></author><id>tag:blog.shaunfinglas.co.uk,2011-03-01:/2011/03/mock-roles-not-types.html</id><summary type="html">&lt;blockquote&gt;
 &lt;p&gt;"if it feels wrong, it probably is" - numerous Codeweavers' developers&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;The framework we use at Codeweavers is the excellent

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Shaun Finglas - 2016</title><link href="/" rel="alternate"></link><link href="/feeds/2016.atom.xml" rel="self"></link><id>/</id><updated>2016-11-01T00:00:00+01:00</updated><entry><title>DDD - Events</title><link href="/2016/11/ddd-events.html" rel="alternate"></link><published>2016-11-01T00:00:00+01:00</published><updated>2016-11-01T00:00:00+01:00</updated><author><name>Shaun Finglas</name></author><id>tag:None,2016-11-01:/2016/11/ddd-events.html</id><summary type="html">&lt;p&gt;The act of something happening is one of the most crucial aspects of implementing Domain Driven Design (DDD). I missed the importance of domain events when first exploring DDD.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Shaun Finglas - 2016</title><link href="https://blog.shaunfinglas.co.uk/" rel="alternate"></link><link href="https://blog.shaunfinglas.co.uk/feeds/2016.atom.xml" rel="self"></link><id>https://blog.shaunfinglas.co.uk/</id><updated>2016-11-01T00:00:00+01:00</updated><entry><title>DDD - Events</title><link href="https://blog.shaunfinglas.co.uk/2016/11/ddd-events.html" rel="alternate"></link><published>2016-11-01T00:00:00+01:00</published><updated>2016-11-01T00:00:00+01:00</updated><author><name>Shaun Finglas</name></author><id>tag:blog.shaunfinglas.co.uk,2016-11-01:/2016/11/ddd-events.html</id><summary type="html">&lt;p&gt;The act of something happening is one of the most crucial aspects of implementing Domain Driven Design (DDD). I missed the importance of domain events when first exploring DDD.&lt;/p&gt;
 &lt;h3&gt;Why&lt;/h3&gt;
 &lt;p&gt;Most requirements come in the form &lt;q&gt;when something happens, do this&lt;/q&gt;. &lt;em&gt;Something&lt;/em&gt; in this case would be an action, and …&lt;/p&gt;</summary><content type="html">&lt;p&gt;The act of something happening is one of the most crucial aspects of implementing Domain Driven Design (DDD). I missed the importance of domain events when first exploring DDD.&lt;/p&gt;
 &lt;h3&gt;Why&lt;/h3&gt;
@@ -29,7 +29,7 @@
 &lt;li&gt;Domain Events are a key area of DDD.&lt;/li&gt;
 &lt;li&gt;Use events to write loosely coupled code.&lt;/li&gt;
 &lt;li&gt;Ensure you have a method of auditing with handlers respond to which events.&lt;/li&gt;
-&lt;/ul&gt;</content><category term="tutorial"></category></entry><entry><title>POODR Highlights Part 2</title><link href="/2016/11/poodr-highlights-part-2.html" rel="alternate"></link><published>2016-11-01T00:00:00+01:00</published><updated>2016-11-01T00:00:00+01:00</updated><author><name>Shaun Finglas</name></author><id>tag:None,2016-11-01:/2016/11/poodr-highlights-part-2.html</id><summary type="html">&lt;p&gt;Two other stand out topics from POODR were the use of tests and
+&lt;/ul&gt;</content><category term="tutorial"></category></entry><entry><title>POODR Highlights Part 2</title><link href="https://blog.shaunfinglas.co.uk/2016/11/poodr-highlights-part-2.html" rel="alternate"></link><published>2016-11-01T00:00:00+01:00</published><updated>2016-11-01T00:00:00+01:00</updated><author><name>Shaun Finglas</name></author><id>tag:blog.shaunfinglas.co.uk,2016-11-01:/2016/11/poodr-highlights-part-2.html</id><summary type="html">&lt;p&gt;Two other stand out topics from POODR were the use of tests and
 inheritance. The first set of &lt;a href="https://blog.shaunfinglas.co.uk/2016/10/poodr-highlights-part-1.html"&gt;higlights covered dependencies and
 arguments&lt;/a&gt;.&lt;/p&gt;
 &lt;h4&gt;Tests&lt;/h4&gt;
@@ -86,7 +86,7 @@ Three&lt;/a&gt; can help here.&lt;/p&gt;
 &lt;li&gt;Inheritance is not all bad.&lt;/li&gt;
 &lt;li&gt;Defer or hold back using inheritance until you understand the
     problem.&lt;/li&gt;
-&lt;/ul&gt;</content><category term="highlight"></category></entry><entry><title>Constant Object Anti Pattern</title><link href="/2016/10/constant-object-anti-pattern.html" rel="alternate"></link><published>2016-10-01T00:00:00+02:00</published><updated>2016-10-01T00:00:00+02:00</updated><author><name>Shaun Finglas</name></author><id>tag:None,2016-10-01:/2016/10/constant-object-anti-pattern.html</id><summary type="html">&lt;p&gt;Most constants are used to remove magic numbers or variables that lack
+&lt;/ul&gt;</content><category term="highlight"></category></entry><entry><title>Constant Object Anti Pattern</title><link href="https://blog.shaunfinglas.co.uk/2016/10/constant-object-anti-pattern.html" rel="alternate"></link><published>2016-10-01T00:00:00+02:00</published><updated>2016-10-01T00:00:00+02:00</updated><author><name>Shaun Finglas</name></author><id>tag:blog.shaunfinglas.co.uk,2016-10-01:/2016/10/constant-object-anti-pattern.html</id><summary type="html">&lt;p&gt;Most constants are used to remove magic numbers or variables that lack
 context. A classic example would be code littered with the number 7.
 What does this refer to exactly? If this was replaced with DaysInWeek or
 similar, much clarity is provided. You can determine that code
@@ -135,7 +135,7 @@ help.&lt;/p&gt;
 &lt;li&gt;Only introduce configuration for aspects that need or will change.
     Defer second guessing.&lt;/li&gt;
 &lt;li&gt;Use named arguments to add context for inline variables.&lt;/li&gt;
-&lt;/ul&gt;</content><category term="tutorial"></category><category term="programming"></category></entry><entry><title>POODR Highlights Part 1</title><link href="/2016/10/poodr-highlights-part-1.html" rel="alternate"></link><published>2016-10-01T00:00:00+02:00</published><updated>2016-10-01T00:00:00+02:00</updated><author><name>Shaun Finglas</name></author><id>tag:None,2016-10-01:/2016/10/poodr-highlights-part-1.html</id><summary type="html">&lt;p&gt;&lt;a href="http://www.poodr.com/"&gt;Practical Object-Oriented Design in Ruby&lt;/a&gt; or
+&lt;/ul&gt;</content><category term="tutorial"></category><category term="programming"></category></entry><entry><title>POODR Highlights Part 1</title><link href="https://blog.shaunfinglas.co.uk/2016/10/poodr-highlights-part-1.html" rel="alternate"></link><published>2016-10-01T00:00:00+02:00</published><updated>2016-10-01T00:00:00+02:00</updated><author><name>Shaun Finglas</name></author><id>tag:blog.shaunfinglas.co.uk,2016-10-01:/2016/10/poodr-highlights-part-1.html</id><summary type="html">&lt;p&gt;&lt;a href="http://www.poodr.com/"&gt;Practical Object-Oriented Design in Ruby&lt;/a&gt; or
 POODR is clearly a book about Ruby development, however the odd aspect
 is much of the concepts apply to other languages. In fact I've taken
 these ideas and used them both before and after reading the book in
@@ -192,7 +192,7 @@ safely be re-ordered without fear of compilation or runtime errors.&lt;/p&gt;
 &lt;li&gt;Use named arguments for improved readability and the ability to
     reduce temporary variables. Named variables can be dropped if there
     is only one argument or the variable is well named.&lt;/li&gt;
-&lt;/ul&gt;</content><category term="highlight"></category><category term="code"></category><category term="programming"></category></entry><entry><title>The New Guy</title><link href="/2016/10/the-new-guy.html" rel="alternate"></link><published>2016-10-01T00:00:00+02:00</published><updated>2016-10-01T00:00:00+02:00</updated><author><name>Shaun Finglas</name></author><id>tag:None,2016-10-01:/2016/10/the-new-guy.html</id><summary type="html">&lt;p&gt;Everyone is new at some point. No matter your experience level. You're
+&lt;/ul&gt;</content><category term="highlight"></category><category term="code"></category><category term="programming"></category></entry><entry><title>The New Guy</title><link href="https://blog.shaunfinglas.co.uk/2016/10/the-new-guy.html" rel="alternate"></link><published>2016-10-01T00:00:00+02:00</published><updated>2016-10-01T00:00:00+02:00</updated><author><name>Shaun Finglas</name></author><id>tag:blog.shaunfinglas.co.uk,2016-10-01:/2016/10/the-new-guy.html</id><summary type="html">&lt;p&gt;Everyone is new at some point. No matter your experience level. You're
 either new to the team or new to the business. Being the “new person” is
 both a blessing and a curse.&lt;/p&gt;
 &lt;h3&gt;You're New&lt;/h3&gt;
@@ -253,7 +253,7 @@ easier time suggesting and implementing change.&lt;/p&gt;
     instead of a big bang approach.&lt;/li&gt;
 &lt;li&gt;Embrace new starters, use them to test your processes and
     documentation.&lt;/li&gt;
-&lt;/ul&gt;</content><category term="retro"></category></entry><entry><title>New and Shiny Things</title><link href="/2016/09/new-and-shiny-things.html" rel="alternate"></link><published>2016-09-01T00:00:00+02:00</published><updated>2016-09-01T00:00:00+02:00</updated><author><name>Shaun Finglas</name></author><id>tag:None,2016-09-01:/2016/09/new-and-shiny-things.html</id><summary type="html">&lt;p&gt;There is risk with upgrading anything, be it language, framework,
+&lt;/ul&gt;</content><category term="retro"></category></entry><entry><title>New and Shiny Things</title><link href="https://blog.shaunfinglas.co.uk/2016/09/new-and-shiny-things.html" rel="alternate"></link><published>2016-09-01T00:00:00+02:00</published><updated>2016-09-01T00:00:00+02:00</updated><author><name>Shaun Finglas</name></author><id>tag:blog.shaunfinglas.co.uk,2016-09-01:/2016/09/new-and-shiny-things.html</id><summary type="html">&lt;p&gt;There is risk with upgrading anything, be it language, framework,
 library, OS or third parties.&lt;/p&gt;
 &lt;p&gt;In the past I was rather gung-ho about upgrading. New version out? We
 need it. In fact, this need is often a want. The new version often seems
@@ -307,7 +307,7 @@ matches the delayed upgrade path above.&lt;/p&gt;
 &lt;li&gt;Play and test new technology on the side, in low risk scenarios.&lt;/li&gt;
 &lt;li&gt;What technology you use to build something actually doesn't matter
     in most cases.&lt;/li&gt;
-&lt;/ul&gt;</content><category term="retro"></category></entry><entry><title>Past Mistakes - ORMs and Bounded Contexts</title><link href="/2016/08/past-mistakes-orms-and-bounded-contexts.html" rel="alternate"></link><published>2016-08-01T00:00:00+02:00</published><updated>2016-08-01T00:00:00+02:00</updated><author><name>Shaun Finglas</name></author><id>tag:None,2016-08-01:/2016/08/past-mistakes-orms-and-bounded-contexts.html</id><summary type="html">&lt;p&gt;Sticking with the theme of documenting past mistakes, it's worth
+&lt;/ul&gt;</content><category term="retro"></category></entry><entry><title>Past Mistakes - ORMs and Bounded Contexts</title><link href="https://blog.shaunfinglas.co.uk/2016/08/past-mistakes-orms-and-bounded-contexts.html" rel="alternate"></link><published>2016-08-01T00:00:00+02:00</published><updated>2016-08-01T00:00:00+02:00</updated><author><name>Shaun Finglas</name></author><id>tag:blog.shaunfinglas.co.uk,2016-08-01:/2016/08/past-mistakes-orms-and-bounded-contexts.html</id><summary type="html">&lt;p&gt;Sticking with the theme of documenting past mistakes, it's worth
 expanding a real life scenario where I was unaware of the use of bounded
 contexts and fully understanding the tools you use.&lt;/p&gt;
 &lt;h4&gt;Ignoring a Bounded Context&lt;/h4&gt;
@@ -355,7 +355,7 @@ than micro-ORMs is next to non existent at present.&lt;/p&gt;
 &lt;li&gt;Anything shared must be deployed and tested as a single unit,
     otherwise remove the shared component.&lt;/li&gt;
 &lt;li&gt;ORMs (or other tools) should be understand and respected.&lt;/li&gt;
-&lt;/ul&gt;</content><category term="retro"></category><category term="past-mistakes-series"></category></entry><entry><title>Test Your Live System using Live Service Tests</title><link href="/2016/08/test-your-live-system-using-live.html" rel="alternate"></link><published>2016-08-01T00:00:00+02:00</published><updated>2016-08-01T00:00:00+02:00</updated><author><name>Shaun Finglas</name></author><id>tag:None,2016-08-01:/2016/08/test-your-live-system-using-live.html</id><summary type="html">&lt;p&gt;Traditionally there are three categories of functional tests.&lt;/p&gt;
+&lt;/ul&gt;</content><category term="retro"></category><category term="past-mistakes-series"></category></entry><entry><title>Test Your Live System using Live Service Tests</title><link href="https://blog.shaunfinglas.co.uk/2016/08/test-your-live-system-using-live.html" rel="alternate"></link><published>2016-08-01T00:00:00+02:00</published><updated>2016-08-01T00:00:00+02:00</updated><author><name>Shaun Finglas</name></author><id>tag:blog.shaunfinglas.co.uk,2016-08-01:/2016/08/test-your-live-system-using-live.html</id><summary type="html">&lt;p&gt;Traditionally there are three categories of functional tests.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Acceptance&lt;/li&gt;
 &lt;li&gt;Integration&lt;/li&gt;
@@ -435,7 +435,7 @@ system is operating in a &lt;em&gt;good enough&lt;/em&gt; state.&lt;/p&gt;
 &lt;li&gt;Alter production code to introduce test functionality.&lt;/li&gt;
 &lt;li&gt;Make use of test accounts and anything else that third parties may
     offer.&lt;/li&gt;
-&lt;/ul&gt;</content><category term="testing"></category></entry><entry><title>Why You Should Do Code Katas</title><link href="/2016/08/why-you-should-do-code-katas.html" rel="alternate"></link><published>2016-08-01T00:00:00+02:00</published><updated>2016-08-01T00:00:00+02:00</updated><author><name>Shaun Finglas</name></author><id>tag:None,2016-08-01:/2016/08/why-you-should-do-code-katas.html</id><summary type="html">&lt;p&gt;&lt;a href="http://codekata.com/"&gt;Code katas&lt;/a&gt; are simple exercises that are meant
+&lt;/ul&gt;</content><category term="testing"></category></entry><entry><title>Why You Should Do Code Katas</title><link href="https://blog.shaunfinglas.co.uk/2016/08/why-you-should-do-code-katas.html" rel="alternate"></link><published>2016-08-01T00:00:00+02:00</published><updated>2016-08-01T00:00:00+02:00</updated><author><name>Shaun Finglas</name></author><id>tag:blog.shaunfinglas.co.uk,2016-08-01:/2016/08/why-you-should-do-code-katas.html</id><summary type="html">&lt;p&gt;&lt;a href="http://codekata.com/"&gt;Code katas&lt;/a&gt; are simple exercises that are meant
 to be repeated. They are great for learning a new language or tool. The
 goal is to learn something, not to complete them. In fact, if you don't
 finish a kata that is perfectly normal as long as you take something
@@ -460,7 +460,7 @@ is above doing a kata. Constant improvement or training is essential
 regardless of level. Katas alone are not enough to support personal
 development. Experience, reading and practical development are all still
 required. However when code katas are combined they are an excellent
-aid.&lt;/p&gt;</content><category term="programming"></category><category term="retro"></category></entry><entry><title>Notes on Building and Deploying Software</title><link href="/2016/07/notes-on-building-and-deploying-software.html" rel="alternate"></link><published>2016-07-10T15:18:00+02:00</published><updated>2016-07-10T15:18:00+02:00</updated><author><name>Shaun Finglas</name></author><id>tag:None,2016-07-10:/2016/07/notes-on-building-and-deploying-software.html</id><summary type="html">&lt;h4&gt;Builds and Deploys&lt;/h4&gt;
+aid.&lt;/p&gt;</content><category term="programming"></category><category term="retro"></category></entry><entry><title>Notes on Building and Deploying Software</title><link href="https://blog.shaunfinglas.co.uk/2016/07/notes-on-building-and-deploying-software.html" rel="alternate"></link><published>2016-07-10T15:18:00+02:00</published><updated>2016-07-10T15:18:00+02:00</updated><author><name>Shaun Finglas</name></author><id>tag:blog.shaunfinglas.co.uk,2016-07-10:/2016/07/notes-on-building-and-deploying-software.html</id><summary type="html">&lt;h4&gt;Builds and Deploys&lt;/h4&gt;
 &lt;p&gt;Ideally a build and deploy should be a single step, included within the
 check out of the repository. Additionally the build should include and
 install pre-requisites if missing. You can safely assume the target OS
@@ -576,7 +576,7 @@ change the behaviour of the application.&lt;/p&gt;
 &lt;li&gt;The use of views or stored procedures can add a layer of abstraction
     between applications and databases. This allows changes to the
     underlying DB to have a smaller, limited effect.&lt;/li&gt;
-&lt;/ul&gt;</content><category term="deployment"></category></entry><entry><title>Ten Lessons from Rewriting Software</title><link href="/2016/06/ten-lessons-from-rewriting-software.html" rel="alternate"></link><published>2016-07-01T00:00:00+02:00</published><updated>2016-07-01T00:00:00+02:00</updated><author><name>Shaun Finglas</name></author><id>tag:None,2016-07-01:/2016/06/ten-lessons-from-rewriting-software.html</id><summary type="html">&lt;ol&gt;
+&lt;/ul&gt;</content><category term="deployment"></category></entry><entry><title>Ten Lessons from Rewriting Software</title><link href="https://blog.shaunfinglas.co.uk/2016/06/ten-lessons-from-rewriting-software.html" rel="alternate"></link><published>2016-07-01T00:00:00+02:00</published><updated>2016-07-01T00:00:00+02:00</updated><author><name>Shaun Finglas</name></author><id>tag:blog.shaunfinglas.co.uk,2016-07-01:/2016/06/ten-lessons-from-rewriting-software.html</id><summary type="html">&lt;ol&gt;
 &lt;li&gt;
 &lt;h4&gt;It Will Take A Lot Longer Than Estimated&lt;/h4&gt;
 &lt;ul&gt;
@@ -712,7 +712,7 @@ change the behaviour of the application.&lt;/p&gt;
     when using some of the techniques above.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;/ol&gt;</content><category term="retro"></category></entry><entry><title>Anaemic Domain Models and Code Smells</title><link href="/2016/07/anaemic-domain-models-and-code-smells.html" rel="alternate"></link><published>2016-07-01T00:00:00+02:00</published><updated>2016-07-01T00:00:00+02:00</updated><author><name>Shaun Finglas</name></author><id>tag:None,2016-07-01:/2016/07/anaemic-domain-models-and-code-smells.html</id><summary type="html">&lt;p&gt;An anaemic domain model (ADM) is considered a code smell in many cases.
+&lt;/ol&gt;</content><category term="retro"></category></entry><entry><title>Anaemic Domain Models and Code Smells</title><link href="https://blog.shaunfinglas.co.uk/2016/07/anaemic-domain-models-and-code-smells.html" rel="alternate"></link><published>2016-07-01T00:00:00+02:00</published><updated>2016-07-01T00:00:00+02:00</updated><author><name>Shaun Finglas</name></author><id>tag:blog.shaunfinglas.co.uk,2016-07-01:/2016/07/anaemic-domain-models-and-code-smells.html</id><summary type="html">&lt;p&gt;An anaemic domain model (ADM) is considered a code smell in many cases.
 An ADM is present when you have a entity representing your domain, but
 void of any behaviour. Any logic is separate and operated upon in
 isolation. Such domain models can be thought of as simple property bags …&lt;/p&gt;</summary><content type="html">&lt;p&gt;An anaemic domain model (ADM) is considered a code smell in many cases.
@@ -763,7 +763,7 @@ towards them.&lt;/p&gt;
 &lt;li&gt;The ADM is not a good example of SRP.&lt;/li&gt;
 &lt;li&gt;Refactoring towards a rich domain model is easy and achievable at
     any stage.&lt;/li&gt;
-&lt;/ul&gt;</content><category term="programming"></category></entry><entry><title>I Need to Stop Misusing Divs</title><link href="/2016/07/i-need-to-stop-misusing-divs.html" rel="alternate"></link><published>2016-07-01T00:00:00+02:00</published><updated>2016-07-01T00:00:00+02:00</updated><author><name>Shaun Finglas</name></author><id>tag:None,2016-07-01:/2016/07/i-need-to-stop-misusing-divs.html</id><summary type="html">&lt;p&gt;I a certainly not a skilled or expert front end developer. While I'm
+&lt;/ul&gt;</content><category term="programming"></category></entry><entry><title>I Need to Stop Misusing Divs</title><link href="https://blog.shaunfinglas.co.uk/2016/07/i-need-to-stop-misusing-divs.html" rel="alternate"></link><published>2016-07-01T00:00:00+02:00</published><updated>2016-07-01T00:00:00+02:00</updated><author><name>Shaun Finglas</name></author><id>tag:blog.shaunfinglas.co.uk,2016-07-01:/2016/07/i-need-to-stop-misusing-divs.html</id><summary type="html">&lt;p&gt;I a certainly not a skilled or expert front end developer. While I'm
 more than capable of creating pages I lack any design magic to make them
 look half decent. Despite this one area where improvement can be made is
 in my markup itself.&lt;/p&gt;
@@ -804,7 +804,7 @@ still be used and accessible decades from now is incredible.&lt;/p&gt;
 &lt;h4&gt;Lessons&lt;/h4&gt;
 &lt;p&gt;The lesson here is an easy one. Every time you write a generic division
 element, stop and ask yourself is there an element with more semantic
-meaning that will do the same job?&lt;/p&gt;</content><category term="retro"></category></entry><entry><title>UI Composition Techniques for Services</title><link href="/2016/07/ui-composition-techniques-for-services.html" rel="alternate"></link><published>2016-07-01T00:00:00+02:00</published><updated>2016-07-01T00:00:00+02:00</updated><author><name>Shaun Finglas</name></author><id>tag:None,2016-07-01:/2016/07/ui-composition-techniques-for-services.html</id><summary type="html">&lt;p&gt;When using services be it SOA, microservices or some other hybrid
+meaning that will do the same job?&lt;/p&gt;</content><category term="retro"></category></entry><entry><title>UI Composition Techniques for Services</title><link href="https://blog.shaunfinglas.co.uk/2016/07/ui-composition-techniques-for-services.html" rel="alternate"></link><published>2016-07-01T00:00:00+02:00</published><updated>2016-07-01T00:00:00+02:00</updated><author><name>Shaun Finglas</name></author><id>tag:blog.shaunfinglas.co.uk,2016-07-01:/2016/07/ui-composition-techniques-for-services.html</id><summary type="html">&lt;p&gt;When using services be it SOA, microservices or some other hybrid
 approach, at some point you will need to display an aggregation of data
 onto a UI. This simple task can actually involve some complexity and
 hidden pitfalls.&lt;/p&gt;
@@ -961,7 +961,7 @@ the context of a full blown application.&lt;/p&gt;
 &lt;li&gt;Default to using the services directly, only introducing a BFF if
     client requirements differ or client requirements are being forced
     upon the independent services.&lt;/li&gt;
-&lt;/ul&gt;</content><category term="microservices"></category><category term="SOA"></category></entry><entry><title>DDD - Bounded Contexts</title><link href="/2016/06/ddd-bounded-contexts.html" rel="alternate"></link><published>2016-06-14T07:25:00+02:00</published><updated>2016-06-14T07:25:00+02:00</updated><author><name>Shaun Finglas</name></author><id>tag:None,2016-06-14:/2016/06/ddd-bounded-contexts.html</id><summary type="html">&lt;p&gt;A single domain can grow large when applying Domain Driven Design. It
+&lt;/ul&gt;</content><category term="microservices"></category><category term="SOA"></category></entry><entry><title>DDD - Bounded Contexts</title><link href="https://blog.shaunfinglas.co.uk/2016/06/ddd-bounded-contexts.html" rel="alternate"></link><published>2016-06-14T07:25:00+02:00</published><updated>2016-06-14T07:25:00+02:00</updated><author><name>Shaun Finglas</name></author><id>tag:blog.shaunfinglas.co.uk,2016-06-14:/2016/06/ddd-bounded-contexts.html</id><summary type="html">&lt;p&gt;A single domain can grow large when applying Domain Driven Design. It
 can become very hard to contain a single model when using ubiquitous
 language to model the domain. Classic examples prevalent in many domains
 would be &lt;code&gt;Customer&lt;/code&gt; or &lt;code&gt;User&lt;/code&gt; models. A bounded context allows you to
@@ -1028,7 +1028,7 @@ never be a case where this is problematic.&lt;/p&gt;
     further when these models are used.&lt;/li&gt;
 &lt;li&gt;Ending up with multiple models per bounded context is likely going
     to happen, embrace it.&lt;/li&gt;
-&lt;/ul&gt;</content><category term="tutorial"></category></entry><entry><title>Given When Then Scenarios vs Test Fixtures</title><link href="/2016/06/given-when-then-scenarios-vs-test.html" rel="alternate"></link><published>2016-06-01T00:00:00+02:00</published><updated>2016-06-01T00:00:00+02:00</updated><author><name>Shaun Finglas</name></author><id>tag:None,2016-06-01:/2016/06/given-when-then-scenarios-vs-test.html</id><summary type="html">&lt;p&gt;There are two common ways of writing automated tests which apply from
+&lt;/ul&gt;</content><category term="tutorial"></category></entry><entry><title>Given When Then Scenarios vs Test Fixtures</title><link href="https://blog.shaunfinglas.co.uk/2016/06/given-when-then-scenarios-vs-test.html" rel="alternate"></link><published>2016-06-01T00:00:00+02:00</published><updated>2016-06-01T00:00:00+02:00</updated><author><name>Shaun Finglas</name></author><id>tag:blog.shaunfinglas.co.uk,2016-06-01:/2016/06/given-when-then-scenarios-vs-test.html</id><summary type="html">&lt;p&gt;There are two common ways of writing automated tests which apply from
 unit to acceptance tests. These are typically known as test fixtures and
 Given-When-Then scenarios.&lt;/p&gt;
 &lt;h4&gt;Test Fixture&lt;/h4&gt;
@@ -1088,7 +1088,7 @@ Given-When-Then scenarios.&lt;/p&gt;
 &lt;li&gt;The core of your tests can use GWT style.&lt;/li&gt;
 &lt;li&gt;Mix and match where appropriate however.&lt;/li&gt;
 &lt;li&gt;Your choice of tooling and language may influence your approach.&lt;/li&gt;
-&lt;/ul&gt;</content><category term="testing"></category><category term="unit-testing"></category><category term="tutorial"></category></entry><entry><title>Foreign Key Constraints and Microservices</title><link href="/2016/05/foreign-key-constraints-and.html" rel="alternate"></link><published>2016-05-01T00:00:00+02:00</published><updated>2016-05-01T00:00:00+02:00</updated><author><name>Shaun Finglas</name></author><id>tag:None,2016-05-01:/2016/05/foreign-key-constraints-and.html</id><summary type="html">&lt;p&gt;Database constraints when used in relational databases are great. They
+&lt;/ul&gt;</content><category term="testing"></category><category term="unit-testing"></category><category term="tutorial"></category></entry><entry><title>Foreign Key Constraints and Microservices</title><link href="https://blog.shaunfinglas.co.uk/2016/05/foreign-key-constraints-and.html" rel="alternate"></link><published>2016-05-01T00:00:00+02:00</published><updated>2016-05-01T00:00:00+02:00</updated><author><name>Shaun Finglas</name></author><id>tag:blog.shaunfinglas.co.uk,2016-05-01:/2016/05/foreign-key-constraints-and.html</id><summary type="html">&lt;p&gt;Database constraints when used in relational databases are great. They
 ensure data integrity at the lowest level. No one would argue against
 using them in practice. Essentially constraints can be thought of as
 assertions against your database. Rules such as requirement, default
@@ -1176,7 +1176,7 @@ separated.&lt;/p&gt;
     integrity within service boundaries.&lt;/li&gt;
 &lt;li&gt;Outside of service boundaries, use format checks to prevent errors.&lt;/li&gt;
 &lt;li&gt;Rely on compensating actions or events for data management.&lt;/li&gt;
-&lt;/ul&gt;</content><category term="microservices"></category><category term="distributed-systems"></category></entry><entry><title>Past Mistakes - Out of Process Commands</title><link href="/2016/05/past-mistakes-out-of-process-commands.html" rel="alternate"></link><published>2016-05-01T00:00:00+02:00</published><updated>2016-05-01T00:00:00+02:00</updated><author><name>Shaun Finglas</name></author><id>tag:None,2016-05-01:/2016/05/past-mistakes-out-of-process-commands.html</id><summary type="html">&lt;p&gt;Some of the best lessons you can learn are from failure. I figured a
+&lt;/ul&gt;</content><category term="microservices"></category><category term="distributed-systems"></category></entry><entry><title>Past Mistakes - Out of Process Commands</title><link href="https://blog.shaunfinglas.co.uk/2016/05/past-mistakes-out-of-process-commands.html" rel="alternate"></link><published>2016-05-01T00:00:00+02:00</published><updated>2016-05-01T00:00:00+02:00</updated><author><name>Shaun Finglas</name></author><id>tag:blog.shaunfinglas.co.uk,2016-05-01:/2016/05/past-mistakes-out-of-process-commands.html</id><summary type="html">&lt;p&gt;Some of the best lessons you can learn are from failure. I figured a
 series on mistakes I've made in the past would highlight where I went
 wrong and more importantly what to remember going forward. These real
 life examples vary from my early days of programming all the way …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Some of the best lessons you can learn are from failure. I figured a
@@ -1232,7 +1232,7 @@ HTTP's excellent caching policies to reduce the affect on the system.&lt;/p&gt;
     to record the command prior to processing them.&lt;/li&gt;
 &lt;li&gt;Rely on HTTP caching policies to reduce the effect of queries that
     cannot be avoided.&lt;/li&gt;
-&lt;/ul&gt;</content><category term="retro"></category><category term="past-mistakes-series"></category></entry><entry><title>You Rarely Need Custom Exceptions</title><link href="/2016/05/you-rarely-need-custom-exceptions.html" rel="alternate"></link><published>2016-05-01T00:00:00+02:00</published><updated>2016-05-01T00:00:00+02:00</updated><author><name>Shaun Finglas</name></author><id>tag:None,2016-05-01:/2016/05/you-rarely-need-custom-exceptions.html</id><summary type="html">&lt;p&gt;Implementing custom exceptions usually gives a hint as to why you rarely
+&lt;/ul&gt;</content><category term="retro"></category><category term="past-mistakes-series"></category></entry><entry><title>You Rarely Need Custom Exceptions</title><link href="https://blog.shaunfinglas.co.uk/2016/05/you-rarely-need-custom-exceptions.html" rel="alternate"></link><published>2016-05-01T00:00:00+02:00</published><updated>2016-05-01T00:00:00+02:00</updated><author><name>Shaun Finglas</name></author><id>tag:blog.shaunfinglas.co.uk,2016-05-01:/2016/05/you-rarely-need-custom-exceptions.html</id><summary type="html">&lt;p&gt;Implementing custom exceptions usually gives a hint as to why you rarely
 need custom implementations. They are often nothing more than sub
 classes where the only difference is the type name and containing
 message.&lt;/p&gt;
@@ -1305,7 +1305,7 @@ does not matter in most cases.&lt;/p&gt;
     needs to be handled uniquely.&lt;/li&gt;
 &lt;li&gt;Put effort into ensuring the message of an exception is useful -
     messages and the stack trace are the most important elements.&lt;/li&gt;
-&lt;/ul&gt;</content><category term="programming"></category><category term="tutorial"></category></entry><entry><title>Your Job Isn't to Write Code</title><link href="/2016/05/your-job-isnt-to-write-code.html" rel="alternate"></link><published>2016-05-01T00:00:00+02:00</published><updated>2016-05-01T00:00:00+02:00</updated><author><name>Shaun Finglas</name></author><id>tag:None,2016-05-01:/2016/05/your-job-isnt-to-write-code.html</id><summary type="html">&lt;p&gt;Solving problems is the role of software developers first and foremost.
+&lt;/ul&gt;</content><category term="programming"></category><category term="tutorial"></category></entry><entry><title>Your Job Isn't to Write Code</title><link href="https://blog.shaunfinglas.co.uk/2016/05/your-job-isnt-to-write-code.html" rel="alternate"></link><published>2016-05-01T00:00:00+02:00</published><updated>2016-05-01T00:00:00+02:00</updated><author><name>Shaun Finglas</name></author><id>tag:blog.shaunfinglas.co.uk,2016-05-01:/2016/05/your-job-isnt-to-write-code.html</id><summary type="html">&lt;p&gt;Solving problems is the role of software developers first and foremost.
 The most interesting aspect is that in many cases it is possible to
 perform this role without writing a single line of code.&lt;/p&gt;
 &lt;h4&gt;Low Tech&lt;/h4&gt;
@@ -1354,7 +1354,7 @@ unfortunately a younger, naive version of myself ignored this advice.&lt;/p&gt;
 &lt;li&gt;Not all solutions require code to complete.&lt;/li&gt;
 &lt;li&gt;Focus on hitting goals, not the feeling of productivity writing code
     can give.&lt;/li&gt;
-&lt;/ul&gt;</content><category term="developers"></category><category term="retro"></category></entry><entry><title>Legacy Code is Just Code</title><link href="/2016/04/legacy-code-is-just-code.html" rel="alternate"></link><published>2016-04-19T16:23:00+02:00</published><updated>2016-04-19T16:23:00+02:00</updated><author><name>Shaun Finglas</name></author><id>tag:None,2016-04-19:/2016/04/legacy-code-is-just-code.html</id><summary type="html">&lt;p&gt;Try and define legacy code. &lt;a href="https://www.amazon.co.uk/Working-Effectively-Legacy-Michael-Feathers/dp/0131177052/275-5610177-1468962"&gt;Working Effectively With Legacy
+&lt;/ul&gt;</content><category term="developers"></category><category term="retro"></category></entry><entry><title>Legacy Code is Just Code</title><link href="https://blog.shaunfinglas.co.uk/2016/04/legacy-code-is-just-code.html" rel="alternate"></link><published>2016-04-19T16:23:00+02:00</published><updated>2016-04-19T16:23:00+02:00</updated><author><name>Shaun Finglas</name></author><id>tag:blog.shaunfinglas.co.uk,2016-04-19:/2016/04/legacy-code-is-just-code.html</id><summary type="html">&lt;p&gt;Try and define legacy code. &lt;a href="https://www.amazon.co.uk/Working-Effectively-Legacy-Michael-Feathers/dp/0131177052/275-5610177-1468962"&gt;Working Effectively With Legacy
 Code&lt;/a&gt;
 states it is simply code with no tests. This is an almost perfect
 definition, however it is quite easy to have code that is covered by
@@ -1385,7 +1385,7 @@ not possible, use specific techniques for dealing with legacy code
 Much of the code I have written can/should/will be replaced but the
 features live on.&lt;/p&gt;
 &lt;p&gt;The lesson here is to simply treat all code as equal regardless of its
-status - legacy or not.&lt;/p&gt;</content><category term="programming"></category><category term="retro"></category></entry><entry><title>Dependency Injection for Common Global Dependencies</title><link href="/2016/04/dependency-injection-for-common-global.html" rel="alternate"></link><published>2016-04-13T07:09:00+02:00</published><updated>2016-04-13T07:09:00+02:00</updated><author><name>Shaun Finglas</name></author><id>tag:None,2016-04-13:/2016/04/dependency-injection-for-common-global.html</id><summary type="html">&lt;p&gt;The use of &lt;a href="https://blog.shaunfinglas.co.uk/2016/03/singletons-and-singleton-lifestyle.html"&gt;singletons can often be replaced by simply adjusting scoping
+status - legacy or not.&lt;/p&gt;</content><category term="programming"></category><category term="retro"></category></entry><entry><title>Dependency Injection for Common Global Dependencies</title><link href="https://blog.shaunfinglas.co.uk/2016/04/dependency-injection-for-common-global.html" rel="alternate"></link><published>2016-04-13T07:09:00+02:00</published><updated>2016-04-13T07:09:00+02:00</updated><author><name>Shaun Finglas</name></author><id>tag:blog.shaunfinglas.co.uk,2016-04-13:/2016/04/dependency-injection-for-common-global.html</id><summary type="html">&lt;p&gt;The use of &lt;a href="https://blog.shaunfinglas.co.uk/2016/03/singletons-and-singleton-lifestyle.html"&gt;singletons can often be replaced by simply adjusting scoping
 of
 objects&lt;/a&gt;.
 The vast majority of dependencies fit this pattern, with a few
@@ -1443,7 +1443,7 @@ majority of all other dependencies can and probably should be satisfied
 by traditional DI where possible. As always each dependency should be
 validated prior to introduction. It may be possible to either &lt;a href="https://blog.shaunfinglas.co.uk/2015/03/dependency-elimination-principle.html"&gt;eliminate
 or replace the component in
-question&lt;/a&gt;.&lt;/p&gt;</content><category term="programming"></category><category term="tutorial"></category></entry><entry><title>Singleton's and the Singleton Lifestyle</title><link href="/2016/03/singletons-and-singleton-lifestyle.html" rel="alternate"></link><published>2016-04-01T00:00:00+02:00</published><updated>2016-04-01T00:00:00+02:00</updated><author><name>Shaun Finglas</name></author><id>tag:None,2016-04-01:/2016/03/singletons-and-singleton-lifestyle.html</id><summary type="html">&lt;p&gt;&lt;a href="http://misko.hevery.com/2008/12/15/static-methods-are-death-to-testability/"&gt;The death of testability and the lack of
+question&lt;/a&gt;.&lt;/p&gt;</content><category term="programming"></category><category term="tutorial"></category></entry><entry><title>Singleton's and the Singleton Lifestyle</title><link href="https://blog.shaunfinglas.co.uk/2016/03/singletons-and-singleton-lifestyle.html" rel="alternate"></link><published>2016-04-01T00:00:00+02:00</published><updated>2016-04-01T00:00:00+02:00</updated><author><name>Shaun Finglas</name></author><id>tag:blog.shaunfinglas.co.uk,2016-04-01:/2016/03/singletons-and-singleton-lifestyle.html</id><summary type="html">&lt;p&gt;&lt;a href="http://misko.hevery.com/2008/12/15/static-methods-are-death-to-testability/"&gt;The death of testability and the lack of
 isolation&lt;/a&gt;
 make the singleton pattern a relic of times gone by. Rarely have I had a
 real need to code a singleton since my first year of university. Most
@@ -1494,7 +1494,7 @@ may or may not be an issue.&lt;/p&gt;
 global&lt;/a&gt;.
 The likes of date/time or logging spring to mind. In these cases
 &lt;a href="https://blog.shaunfinglas.co.uk/2016/04/dependency-injection-for-common-global.html"&gt;alternative solutions
-exist&lt;/a&gt;.&lt;/p&gt;</content><category term="programming"></category><category term="tutorial"></category></entry><entry><title>Project Setup Tax</title><link href="/2016/04/project-setup-tax.html" rel="alternate"></link><published>2016-04-01T00:00:00+02:00</published><updated>2016-04-01T00:00:00+02:00</updated><author><name>Shaun Finglas</name></author><id>tag:None,2016-04-01:/2016/04/project-setup-tax.html</id><summary type="html">&lt;p&gt;With microservices gaining popularity, one consideration prior to
+exist&lt;/a&gt;.&lt;/p&gt;</content><category term="programming"></category><category term="tutorial"></category></entry><entry><title>Project Setup Tax</title><link href="https://blog.shaunfinglas.co.uk/2016/04/project-setup-tax.html" rel="alternate"></link><published>2016-04-01T00:00:00+02:00</published><updated>2016-04-01T00:00:00+02:00</updated><author><name>Shaun Finglas</name></author><id>tag:blog.shaunfinglas.co.uk,2016-04-01:/2016/04/project-setup-tax.html</id><summary type="html">&lt;p&gt;With microservices gaining popularity, one consideration prior to
 adoption is new project setup. In fact this statement holds true for any
 new project that you decide to create.&lt;/p&gt;
 &lt;p&gt;Each new project requires at a minimum&lt;/p&gt;
@@ -1523,7 +1523,7 @@ configuration options or security concerns.&lt;/p&gt;
 &lt;p&gt;The lesson here is to never underestimate the time and effort required
 in starting a new project. Always allocate more time. Better yet,
 &lt;a href="https://blog.shaunfinglas.co.uk/2015/06/do-you-really-need-microservice.html"&gt;question if the introduction of a new project is even
-required&lt;/a&gt;.&lt;/p&gt;</content><category term="microservices"></category><category term="retro"></category></entry><entry><title>X% of Configuration is Never Used</title><link href="/2016/04/x-of-configuration-is-never-used.html" rel="alternate"></link><published>2016-04-01T00:00:00+02:00</published><updated>2016-04-01T00:00:00+02:00</updated><author><name>Shaun Finglas</name></author><id>tag:None,2016-04-01:/2016/04/x-of-configuration-is-never-used.html</id><summary type="html">&lt;p&gt;Code configuration is essentially for the likes of URLs, credentials or
+required&lt;/a&gt;.&lt;/p&gt;</content><category term="microservices"></category><category term="retro"></category></entry><entry><title>X% of Configuration is Never Used</title><link href="https://blog.shaunfinglas.co.uk/2016/04/x-of-configuration-is-never-used.html" rel="alternate"></link><published>2016-04-01T00:00:00+02:00</published><updated>2016-04-01T00:00:00+02:00</updated><author><name>Shaun Finglas</name></author><id>tag:blog.shaunfinglas.co.uk,2016-04-01:/2016/04/x-of-configuration-is-never-used.html</id><summary type="html">&lt;p&gt;Code configuration is essentially for the likes of URLs, credentials or
 other per deployable settings. Sadly configuration seems to fall into
 examples where there is simply too much configuration, or the system has
 so many configuration points the actual code becomes far too complex for
@@ -1587,7 +1587,7 @@ root. Such solutions are easily testable and open to modification.&lt;/p&gt;
     technical task.&lt;/li&gt;
 &lt;li&gt;Provide configurations values, not the means of obtaining them.&lt;/li&gt;
 &lt;li&gt;Rely upon convention over configuration as much as possible.&lt;/li&gt;
-&lt;/ul&gt;</content><category term="programming"></category><category term="code-quality"></category></entry><entry><title>Pulling the Plug on Date Time Parsing</title><link href="/2016/03/pulling-plug-on-date-time-parsing.html" rel="alternate"></link><published>2016-03-30T06:49:00+02:00</published><updated>2016-03-30T06:49:00+02:00</updated><author><name>Shaun Finglas</name></author><id>tag:None,2016-03-30:/2016/03/pulling-plug-on-date-time-parsing.html</id><summary type="html">&lt;p&gt;Date/time logic is hard. Throw in time zones along with daylight saving
+&lt;/ul&gt;</content><category term="programming"></category><category term="code-quality"></category></entry><entry><title>Pulling the Plug on Date Time Parsing</title><link href="https://blog.shaunfinglas.co.uk/2016/03/pulling-plug-on-date-time-parsing.html" rel="alternate"></link><published>2016-03-30T06:49:00+02:00</published><updated>2016-03-30T06:49:00+02:00</updated><author><name>Shaun Finglas</name></author><id>tag:blog.shaunfinglas.co.uk,2016-03-30:/2016/03/pulling-plug-on-date-time-parsing.html</id><summary type="html">&lt;p&gt;Date/time logic is hard. Throw in time zones along with daylight saving
 and it's even harder. Recently a suite of tests that had happily been
 running for months started failing. There were no code changes and all
 the tests were somehow related to date/time ranges.&lt;/p&gt;
@@ -1615,7 +1615,7 @@ temporarily change my regional settings. With more codebases utilizing
 the cloud, relying on implicit configuration should be avoided where
 possible. In fact I would bet a large sum of money that many codebases
 out there would fail this temporary locale change. Give it a go - pull
-the plug.&lt;/p&gt;</content><category term="testing"></category><category term="programming"></category><category term="unit-testing"></category></entry><entry><title>Best of Breed</title><link href="/2016/03/best-of-breed.html" rel="alternate"></link><published>2016-03-01T00:00:00+01:00</published><updated>2016-03-01T00:00:00+01:00</updated><author><name>Shaun Finglas</name></author><id>tag:None,2016-03-01:/2016/03/best-of-breed.html</id><summary type="html">&lt;p&gt;Spikes are one of the best ways to aid the design of software. In some
+the plug.&lt;/p&gt;</content><category term="testing"></category><category term="programming"></category><category term="unit-testing"></category></entry><entry><title>Best of Breed</title><link href="https://blog.shaunfinglas.co.uk/2016/03/best-of-breed.html" rel="alternate"></link><published>2016-03-01T00:00:00+01:00</published><updated>2016-03-01T00:00:00+01:00</updated><author><name>Shaun Finglas</name></author><id>tag:blog.shaunfinglas.co.uk,2016-03-01:/2016/03/best-of-breed.html</id><summary type="html">&lt;p&gt;Spikes are one of the best ways to aid the design of software. In some
 cases spike solutions can open more questions than they solve. The use
 of a technique known as &lt;em&gt;Best of Breed&lt;/em&gt; can assist when this arises.&lt;/p&gt;
 &lt;p&gt;Rather than producing a single spike, produce several. Either
@@ -1653,7 +1653,7 @@ further solutions should be evaluated on a case by case basis. Single
 developers may prefer to evolve a single spike during various phases.&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;The term &lt;em&gt;Best of Breed&lt;/em&gt; was introduced to myself by &lt;a href="https://twitter.com/BlueReZZ"&gt;Paul
-Shannon&lt;/a&gt;.&lt;/p&gt;</content><category term="retro"></category></entry><entry><title>Eating your own Dog Food</title><link href="/2016/03/eating-your-own-dog-food.html" rel="alternate"></link><published>2016-03-01T00:00:00+01:00</published><updated>2016-03-01T00:00:00+01:00</updated><author><name>Shaun Finglas</name></author><id>tag:None,2016-03-01:/2016/03/eating-your-own-dog-food.html</id><summary type="html">&lt;p&gt;Also known as &lt;em&gt;dog fooding&lt;/em&gt;. It's an odd term, &lt;a href="https://en.wikipedia.org/wiki/Eating_your_own_dog_food#Origin_of_the_term"&gt;with roots dating back
+Shannon&lt;/a&gt;.&lt;/p&gt;</content><category term="retro"></category></entry><entry><title>Eating your own Dog Food</title><link href="https://blog.shaunfinglas.co.uk/2016/03/eating-your-own-dog-food.html" rel="alternate"></link><published>2016-03-01T00:00:00+01:00</published><updated>2016-03-01T00:00:00+01:00</updated><author><name>Shaun Finglas</name></author><id>tag:blog.shaunfinglas.co.uk,2016-03-01:/2016/03/eating-your-own-dog-food.html</id><summary type="html">&lt;p&gt;Also known as &lt;em&gt;dog fooding&lt;/em&gt;. It's an odd term, &lt;a href="https://en.wikipedia.org/wiki/Eating_your_own_dog_food#Origin_of_the_term"&gt;with roots dating back
 to 70's adverts and the even more
 bizarre&lt;/a&gt;.
 In software development the idea is simple. Use the software you produce
@@ -1691,7 +1691,7 @@ library may not be as useful as you think.&lt;/p&gt;
 &lt;p&gt;Libraries that have not been built using dog fooding are often clunky,
 unintuitive and frustrating to use. Every developer could name numerous
 examples that would fit this criteria, but the opposite is also true.
-The use of dog fooding tends to force libraries into the later.&lt;/p&gt;</content><category term="retro"></category></entry><entry><title>Write Assertions First</title><link href="/2016/03/write-assertions-first.html" rel="alternate"></link><published>2016-03-01T00:00:00+01:00</published><updated>2016-03-01T00:00:00+01:00</updated><author><name>Shaun Finglas</name></author><id>tag:None,2016-03-01:/2016/03/write-assertions-first.html</id><summary type="html">&lt;p&gt;Writing a test as part of the TDD process is simple.&lt;/p&gt;
+The use of dog fooding tends to force libraries into the later.&lt;/p&gt;</content><category term="retro"></category></entry><entry><title>Write Assertions First</title><link href="https://blog.shaunfinglas.co.uk/2016/03/write-assertions-first.html" rel="alternate"></link><published>2016-03-01T00:00:00+01:00</published><updated>2016-03-01T00:00:00+01:00</updated><author><name>Shaun Finglas</name></author><id>tag:blog.shaunfinglas.co.uk,2016-03-01:/2016/03/write-assertions-first.html</id><summary type="html">&lt;p&gt;Writing a test as part of the TDD process is simple.&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Arrange&lt;/li&gt;
 &lt;li&gt;Act&lt;/li&gt;
@@ -1737,7 +1737,7 @@ think of what you are asserting upon. This forces better names out in
 the process. An example would be &lt;code&gt;orderTotals&lt;/code&gt; if the purpose of the
 assertion was to check if the total of an order was as expected.&lt;/p&gt;
 &lt;p&gt;Writing assertions first can feel awkward but the benefits of this
-change are well worth the initial slowdown.&lt;/p&gt;</content><category term="testing"></category><category term="tdd"></category><category term="unit-testing"></category></entry><entry><title>Gaining Ten Extra Hours a Week</title><link href="/2016/02/gaining-ten-extra-hours-week.html" rel="alternate"></link><published>2016-02-01T00:00:00+01:00</published><updated>2016-02-01T00:00:00+01:00</updated><author><name>Shaun Finglas</name></author><id>tag:None,2016-02-01:/2016/02/gaining-ten-extra-hours-week.html</id><summary type="html">&lt;p&gt;For a long time my work life balance has gone through phases. Some weeks
+change are well worth the initial slowdown.&lt;/p&gt;</content><category term="testing"></category><category term="tdd"></category><category term="unit-testing"></category></entry><entry><title>Gaining Ten Extra Hours a Week</title><link href="https://blog.shaunfinglas.co.uk/2016/02/gaining-ten-extra-hours-week.html" rel="alternate"></link><published>2016-02-01T00:00:00+01:00</published><updated>2016-02-01T00:00:00+01:00</updated><author><name>Shaun Finglas</name></author><id>tag:blog.shaunfinglas.co.uk,2016-02-01:/2016/02/gaining-ten-extra-hours-week.html</id><summary type="html">&lt;p&gt;For a long time my work life balance has gone through phases. Some weeks
 I would spend hours after work writing code. This would exceed to well
 beyond midnight in some cases. This phase was not sustainable but it
 appeared to be the norm.&lt;/p&gt;
@@ -1786,7 +1786,7 @@ period. Thanks to this change I nearly doubled the amount of blog posts
 I wrote back in 2015 when compared to 2014. I've read more books and
 watched more technical videos during this period than ever, while still
 maintaining a healthy balance in other areas of my life. Give it a go,
-become a morning person.&lt;/p&gt;</content><category term="retro"></category></entry><entry><title>Sproc vs ORM vs Inline vs Polyglot</title><link href="/2016/02/sproc-vs-orm-vs-inline-vs-polyglot.html" rel="alternate"></link><published>2016-02-01T00:00:00+01:00</published><updated>2016-02-01T00:00:00+01:00</updated><author><name>Shaun Finglas</name></author><id>tag:None,2016-02-01:/2016/02/sproc-vs-orm-vs-inline-vs-polyglot.html</id><summary type="html">&lt;p&gt;With relational databases the common data access patterns tend to fall
+become a morning person.&lt;/p&gt;</content><category term="retro"></category></entry><entry><title>Sproc vs ORM vs Inline vs Polyglot</title><link href="https://blog.shaunfinglas.co.uk/2016/02/sproc-vs-orm-vs-inline-vs-polyglot.html" rel="alternate"></link><published>2016-02-01T00:00:00+01:00</published><updated>2016-02-01T00:00:00+01:00</updated><author><name>Shaun Finglas</name></author><id>tag:blog.shaunfinglas.co.uk,2016-02-01:/2016/02/sproc-vs-orm-vs-inline-vs-polyglot.html</id><summary type="html">&lt;p&gt;With relational databases the common data access patterns tend to fall
 into three core options.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Direct access via inline SQL&lt;/li&gt;
@@ -1844,7 +1844,7 @@ patterns. Polyglot persistence is gaining more traction where alternate
 data storage solutions are more appropriate.&lt;/p&gt;
 &lt;h4&gt;N+1&lt;/h4&gt;
 &lt;p&gt;One common flaw that all these data access patterns can have is the &lt;a href="https://blog.shaunfinglas.co.uk/2016/02/the-n1-problem.html"&gt;N+1
-problem&lt;/a&gt;.&lt;/p&gt;</content><category term="retro"></category></entry><entry><title>The N+1 Problem</title><link href="/2016/02/the-n1-problem.html" rel="alternate"></link><published>2016-02-01T00:00:00+01:00</published><updated>2016-02-01T00:00:00+01:00</updated><author><name>Shaun Finglas</name></author><id>tag:None,2016-02-01:/2016/02/the-n1-problem.html</id><summary type="html">&lt;p&gt;The N+1 problem is when multiple queries are executed against a
+problem&lt;/a&gt;.&lt;/p&gt;</content><category term="retro"></category></entry><entry><title>The N+1 Problem</title><link href="https://blog.shaunfinglas.co.uk/2016/02/the-n1-problem.html" rel="alternate"></link><published>2016-02-01T00:00:00+01:00</published><updated>2016-02-01T00:00:00+01:00</updated><author><name>Shaun Finglas</name></author><id>tag:blog.shaunfinglas.co.uk,2016-02-01:/2016/02/the-n1-problem.html</id><summary type="html">&lt;p&gt;The N+1 problem is when multiple queries are executed against a
 persistent store when a reduced amount could serve the same purpose.
 This degrades performance, uses more memory and can cause complexity to
 be added to the code that processes the results. Most sources of the
@@ -1906,7 +1906,7 @@ further optimisation and simplification.&lt;/p&gt;
 logging the underlying queries that are performed. Once an issue is
 discovered it is usually a case of consulting documentation on what the
 fix is - often configuration related. Due to this it is worth enabling
-logging during development so queries can be analysed.&lt;/p&gt;</content><category term="tutorial"></category></entry><entry><title>Why you need a Developer Diary</title><link href="/2016/02/why-you-need-developer-diary.html" rel="alternate"></link><published>2016-02-01T00:00:00+01:00</published><updated>2016-02-01T00:00:00+01:00</updated><author><name>Shaun Finglas</name></author><id>tag:None,2016-02-01:/2016/02/why-you-need-developer-diary.html</id><summary type="html">&lt;p&gt;After eighteen months of use, I can safely claim &lt;a href="https://blog.shaunfinglas.co.uk/2014/09/developer-diaries.html"&gt;how useful a a
+logging during development so queries can be analysed.&lt;/p&gt;</content><category term="tutorial"></category></entry><entry><title>Why you need a Developer Diary</title><link href="https://blog.shaunfinglas.co.uk/2016/02/why-you-need-developer-diary.html" rel="alternate"></link><published>2016-02-01T00:00:00+01:00</published><updated>2016-02-01T00:00:00+01:00</updated><author><name>Shaun Finglas</name></author><id>tag:blog.shaunfinglas.co.uk,2016-02-01:/2016/02/why-you-need-developer-diary.html</id><summary type="html">&lt;p&gt;After eighteen months of use, I can safely claim &lt;a href="https://blog.shaunfinglas.co.uk/2014/09/developer-diaries.html"&gt;how useful a a
 developer diary is, and why you should start using
 one&lt;/a&gt; if
 you don't already.&lt;/p&gt;
@@ -1933,7 +1933,7 @@ content recorded ends up in the same location.&lt;/p&gt;
 &lt;p&gt;Keeping a developer diary is without doubt one of the most useful
 changes to my development process. Encouragingly others are doing
 similar things too, but &lt;a href="https://github.com/jbranchaud/til"&gt;under slightly different
-names&lt;/a&gt;.&lt;/p&gt;</content><category term="retro"></category></entry><entry><title>Application Validation and Domain Validation</title><link href="/2016/01/application-validation-and-domain.html" rel="alternate"></link><published>2016-01-13T19:58:00+01:00</published><updated>2016-01-13T19:58:00+01:00</updated><author><name>Shaun Finglas</name></author><id>tag:None,2016-01-13:/2016/01/application-validation-and-domain.html</id><summary type="html">&lt;p&gt;There are two types of validation in an application - application
+names&lt;/a&gt;.&lt;/p&gt;</content><category term="retro"></category></entry><entry><title>Application Validation and Domain Validation</title><link href="https://blog.shaunfinglas.co.uk/2016/01/application-validation-and-domain.html" rel="alternate"></link><published>2016-01-13T19:58:00+01:00</published><updated>2016-01-13T19:58:00+01:00</updated><author><name>Shaun Finglas</name></author><id>tag:blog.shaunfinglas.co.uk,2016-01-13:/2016/01/application-validation-and-domain.html</id><summary type="html">&lt;p&gt;There are two types of validation in an application - application
 validation and domain validation. This applies whether or not you
 practice DDD. One of my mistakes in the past has been confusing or
 conflating these two responsibilities at the same time.&lt;/p&gt;
@@ -1974,7 +1974,7 @@ understand. Examples include:&lt;/p&gt;
 model or domain logic. If &lt;a href="https://blog.shaunfinglas.co.uk/2015/02/value-object-refactoring.html"&gt;value types are utilised you can safely omit
 additional application
 validation&lt;/a&gt;
-as each object would ensure consistency.&lt;/p&gt;</content><category term="tutorial"></category></entry><entry><title>A Lotta Architecture - A Reply to "A Little Architecture"</title><link href="/2016/01/a-lotta-architecture-reply-to-little.html" rel="alternate"></link><published>2016-01-01T00:00:00+01:00</published><updated>2016-01-01T00:00:00+01:00</updated><author><name>Shaun Finglas</name></author><id>tag:None,2016-01-01:/2016/01/a-lotta-architecture-reply-to-little.html</id><summary type="html">&lt;p&gt;A recent post about &lt;a href="http://blog.cleancoder.com/uncle-bob/2016/01/04/ALittleArchitecture.html"&gt;architecture from Uncle
+as each object would ensure consistency.&lt;/p&gt;</content><category term="tutorial"></category></entry><entry><title>A Lotta Architecture - A Reply to "A Little Architecture"</title><link href="https://blog.shaunfinglas.co.uk/2016/01/a-lotta-architecture-reply-to-little.html" rel="alternate"></link><published>2016-01-01T00:00:00+01:00</published><updated>2016-01-01T00:00:00+01:00</updated><author><name>Shaun Finglas</name></author><id>tag:blog.shaunfinglas.co.uk,2016-01-01:/2016/01/a-lotta-architecture-reply-to-little.html</id><summary type="html">&lt;p&gt;A recent post about &lt;a href="http://blog.cleancoder.com/uncle-bob/2016/01/04/ALittleArchitecture.html"&gt;architecture from Uncle
 Bob&lt;/a&gt;
 got me thinking and talking about a typical day in the life of a
 developer. It's well worth a read. In fact at the time of writing this
@@ -2026,7 +2026,7 @@ third party dependencies, over faulty domain logic.&lt;/p&gt;
 &lt;p&gt;Deferring decisions is a sign of good architecture, but the act of
 deferral or hiding behind interfaces only gets you so far. The sad state
 of affairs is that any implementation detail left unchecked can swallow
-applications in complexity.&lt;/p&gt;</content><category term="reply"></category><category term="retro"></category><category term="architecture"></category></entry><entry><title>Getting Things Done - For Software Developers</title><link href="/2016/01/getting-things-done-for-software.html" rel="alternate"></link><published>2016-01-01T00:00:00+01:00</published><updated>2016-01-01T00:00:00+01:00</updated><author><name>Shaun Finglas</name></author><id>tag:None,2016-01-01:/2016/01/getting-things-done-for-software.html</id><summary type="html">&lt;p&gt;I have been using the incredibly simple techniques within &lt;a href="http://gettingthingsdone.com/"&gt;Getting
+applications in complexity.&lt;/p&gt;</content><category term="reply"></category><category term="retro"></category><category term="architecture"></category></entry><entry><title>Getting Things Done - For Software Developers</title><link href="https://blog.shaunfinglas.co.uk/2016/01/getting-things-done-for-software.html" rel="alternate"></link><published>2016-01-01T00:00:00+01:00</published><updated>2016-01-01T00:00:00+01:00</updated><author><name>Shaun Finglas</name></author><id>tag:blog.shaunfinglas.co.uk,2016-01-01:/2016/01/getting-things-done-for-software.html</id><summary type="html">&lt;p&gt;I have been using the incredibly simple techniques within &lt;a href="http://gettingthingsdone.com/"&gt;Getting
 Things Done (GTD)&lt;/a&gt; to good effect over
 the last twelve months.&lt;/p&gt;
 &lt;h3&gt;The System&lt;/h3&gt;
@@ -2073,7 +2073,7 @@ very simple yet highly effective.&lt;/p&gt;
 everything is recorded or waiting in a bucket nothing gets forgotten.
 Instead you can focus on exactly what you need to be doing at the time.&lt;/p&gt;
 &lt;p&gt;In part the use of GTD is partly responsible for the growth of this blog
-from 2014 to present.&lt;/p&gt;</content><category term="reading"></category><category term="retro"></category></entry><entry><title>Validation is not a Cross Cutting Concern</title><link href="/2016/01/validation-is-not-cross-cutting-concern.html" rel="alternate"></link><published>2016-01-01T00:00:00+01:00</published><updated>2016-01-01T00:00:00+01:00</updated><author><name>Shaun Finglas</name></author><id>tag:None,2016-01-01:/2016/01/validation-is-not-cross-cutting-concern.html</id><summary type="html">&lt;p&gt;Attributes in C# are also known as &lt;a href="https://wiki.python.org/moin/PythonDecorators"&gt;decorators in
+from 2014 to present.&lt;/p&gt;</content><category term="reading"></category><category term="retro"></category></entry><entry><title>Validation is not a Cross Cutting Concern</title><link href="https://blog.shaunfinglas.co.uk/2016/01/validation-is-not-cross-cutting-concern.html" rel="alternate"></link><published>2016-01-01T00:00:00+01:00</published><updated>2016-01-01T00:00:00+01:00</updated><author><name>Shaun Finglas</name></author><id>tag:blog.shaunfinglas.co.uk,2016-01-01:/2016/01/validation-is-not-cross-cutting-concern.html</id><summary type="html">&lt;p&gt;Attributes in C# are also known as &lt;a href="https://wiki.python.org/moin/PythonDecorators"&gt;decorators in
 Python&lt;/a&gt; or &lt;a href="http://docs.oracle.com/javase/tutorial/java/annotations/"&gt;annotations
 in Java&lt;/a&gt;.
 Other languages may have similar constructs. This post will use

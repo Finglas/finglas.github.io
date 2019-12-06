@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Shaun Finglas - 2014</title><link href="/" rel="alternate"></link><link href="/feeds/2014.atom.xml" rel="self"></link><id>/</id><updated>2015-02-10T20:15:00+01:00</updated><entry><title>Acceptance Testing need not use the Full Stack</title><link href="/2014/08/acceptance-testing-need-not-use-full.html" rel="alternate"></link><published>2015-02-10T20:15:00+01:00</published><updated>2015-02-10T20:15:00+01:00</updated><author><name>Shaun Finglas</name></author><id>tag:None,2015-02-10:/2014/08/acceptance-testing-need-not-use-full.html</id><summary type="html">&lt;ul&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Shaun Finglas - 2014</title><link href="https://blog.shaunfinglas.co.uk/" rel="alternate"></link><link href="https://blog.shaunfinglas.co.uk/feeds/2014.atom.xml" rel="self"></link><id>https://blog.shaunfinglas.co.uk/</id><updated>2015-02-10T20:15:00+01:00</updated><entry><title>Acceptance Testing need not use the Full Stack</title><link href="https://blog.shaunfinglas.co.uk/2014/08/acceptance-testing-need-not-use-full.html" rel="alternate"></link><published>2015-02-10T20:15:00+01:00</published><updated>2015-02-10T20:15:00+01:00</updated><author><name>Shaun Finglas</name></author><id>tag:blog.shaunfinglas.co.uk,2015-02-10:/2014/08/acceptance-testing-need-not-use-full.html</id><summary type="html">&lt;ul&gt;
 &lt;li&gt;Joined a team with thousands of unit tests (\~10k)&lt;/li&gt;
 &lt;li&gt;But bugs still got through our QA process&lt;/li&gt;
 &lt;li&gt;How could this be?&lt;/li&gt;
@@ -54,7 +54,7 @@ your real view or data access separately to prove they work, and can in
 fact be swapped out thanks to the &lt;a href="http://en.wikipedia.org/wiki/Liskov_substitution_principle"&gt;Liskov Substitution Principle
 (LSP&lt;/a&gt;) by
 running the same suite of tests against your fakes!&lt;/p&gt;
-&lt;p&gt;I'll be expanding on how and what contract testing is in a future post.&lt;/p&gt;</content><category term="testing"></category><category term="retro"></category></entry><entry><title>Recommended Reading List 2014</title><link href="/2015/01/recommended-reading-list-2014.html" rel="alternate"></link><published>2015-01-01T00:00:00+01:00</published><updated>2015-01-01T00:00:00+01:00</updated><author><name>Shaun Finglas</name></author><id>tag:None,2015-01-01:/2015/01/recommended-reading-list-2014.html</id><summary type="html">&lt;p&gt;I've read some great books in the last twelve months, here they are in
+&lt;p&gt;I'll be expanding on how and what contract testing is in a future post.&lt;/p&gt;</content><category term="testing"></category><category term="retro"></category></entry><entry><title>Recommended Reading List 2014</title><link href="https://blog.shaunfinglas.co.uk/2015/01/recommended-reading-list-2014.html" rel="alternate"></link><published>2015-01-01T00:00:00+01:00</published><updated>2015-01-01T00:00:00+01:00</updated><author><name>Shaun Finglas</name></author><id>tag:blog.shaunfinglas.co.uk,2015-01-01:/2015/01/recommended-reading-list-2014.html</id><summary type="html">&lt;p&gt;I've read some great books in the last twelve months, here they are in
 no particular order.&lt;/p&gt;
 &lt;h4&gt;Process&lt;/h4&gt;
 &lt;ul&gt;
@@ -102,7 +102,7 @@ no particular order.&lt;/p&gt;
     Services&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="http://www.amazon.co.uk/Learning-NServiceBus-David-Boike/dp/1782166343"&gt;Learning
     NServiceBus&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><category term="reading"></category></entry><entry><title>A Unit is Not Always a Method or Class</title><link href="/2014/12/a-unit-is-not-always-method-or-class.html" rel="alternate"></link><published>2014-12-01T00:00:00+01:00</published><updated>2014-12-01T00:00:00+01:00</updated><author><name>Shaun Finglas</name></author><id>tag:None,2014-12-01:/2014/12/a-unit-is-not-always-method-or-class.html</id><summary type="html">&lt;p&gt;Part three of my &lt;a href="https://blog.shaunfinglas.co.uk/2014/12/three-steps-to-code-quality-via-tdd.html"&gt;Three Steps to Code Quality via TDD
+&lt;/ul&gt;</content><category term="reading"></category></entry><entry><title>A Unit is Not Always a Method or Class</title><link href="https://blog.shaunfinglas.co.uk/2014/12/a-unit-is-not-always-method-or-class.html" rel="alternate"></link><published>2014-12-01T00:00:00+01:00</published><updated>2014-12-01T00:00:00+01:00</updated><author><name>Shaun Finglas</name></author><id>tag:blog.shaunfinglas.co.uk,2014-12-01:/2014/12/a-unit-is-not-always-method-or-class.html</id><summary type="html">&lt;p&gt;Part three of my &lt;a href="https://blog.shaunfinglas.co.uk/2014/12/three-steps-to-code-quality-via-tdd.html"&gt;Three Steps to Code Quality via TDD
 series&lt;/a&gt;.
 The most important concept when coupled with the previous two points -
 not every unit will relate to a method or class.&lt;/p&gt;
@@ -189,7 +189,7 @@ the public API the use of test doubles will reduce. This will shrink
 test setup and in most cases improve readability. Worrying about large
 tests shouldn't be a problem with this style of testing. You will not
 reduce the amount of tests required, however you will find them to be
-much more stable and resilient than before.&lt;/p&gt;</content><category term="3-steps-code-quality"></category><category term="tdd"></category></entry><entry><title>Factory Obsession</title><link href="/2014/12/factory-obsession.html" rel="alternate"></link><published>2014-12-01T00:00:00+01:00</published><updated>2014-12-01T00:00:00+01:00</updated><author><name>Shaun Finglas</name></author><id>tag:None,2014-12-01:/2014/12/factory-obsession.html</id><summary type="html">&lt;p&gt;I have noticed a pattern over the years with developers of which I will
+much more stable and resilient than before.&lt;/p&gt;</content><category term="3-steps-code-quality"></category><category term="tdd"></category></entry><entry><title>Factory Obsession</title><link href="https://blog.shaunfinglas.co.uk/2014/12/factory-obsession.html" rel="alternate"></link><published>2014-12-01T00:00:00+01:00</published><updated>2014-12-01T00:00:00+01:00</updated><author><name>Shaun Finglas</name></author><id>tag:blog.shaunfinglas.co.uk,2014-12-01:/2014/12/factory-obsession.html</id><summary type="html">&lt;p&gt;I have noticed a pattern over the years with developers of which I will
 refer to as factory obsession. Everything is a factory or builder
 object. To some, the use of &lt;code&gt;new&lt;/code&gt; is &lt;strong&gt;banned&lt;/strong&gt;.&lt;/p&gt;
 &lt;hr&gt;
@@ -236,7 +236,7 @@ design retains its flexibility.&lt;/p&gt;
 should be introduced as part of the refactor step in most cases. Hiding
 the new keyword is not a goal. The fact that mocking frameworks default
 to reference equality shouldn't force you to make a more complicated or
-coupled solution to a problem.&lt;/p&gt;</content><category term="unit-testing"></category><category term="tutorial"></category></entry><entry><title>Limit the Amount of Dependencies you Use</title><link href="/2014/12/limit-amount-of-dependencies-you-use.html" rel="alternate"></link><published>2014-12-01T00:00:00+01:00</published><updated>2014-12-01T00:00:00+01:00</updated><author><name>Shaun Finglas</name></author><id>tag:None,2014-12-01:/2014/12/limit-amount-of-dependencies-you-use.html</id><summary type="html">&lt;p&gt;Part two of my &lt;a href="https://blog.shaunfinglas.co.uk/2014/12/three-steps-to-code-quality-via-tdd.html"&gt;Three Steps to Code Quality via
+coupled solution to a problem.&lt;/p&gt;</content><category term="unit-testing"></category><category term="tutorial"></category></entry><entry><title>Limit the Amount of Dependencies you Use</title><link href="https://blog.shaunfinglas.co.uk/2014/12/limit-amount-of-dependencies-you-use.html" rel="alternate"></link><published>2014-12-01T00:00:00+01:00</published><updated>2014-12-01T00:00:00+01:00</updated><author><name>Shaun Finglas</name></author><id>tag:blog.shaunfinglas.co.uk,2014-12-01:/2014/12/limit-amount-of-dependencies-you-use.html</id><summary type="html">&lt;p&gt;Part two of my &lt;a href="https://blog.shaunfinglas.co.uk/2014/12/three-steps-to-code-quality-via-tdd.html"&gt;Three Steps to Code Quality via
 TDD&lt;/a&gt;
 series and ties very closely into step one, limiting the visibility of
 your classes.&lt;/p&gt;
@@ -290,7 +290,7 @@ such as:&lt;/p&gt;
 sorts of dependencies, don't isolate your code from itself.&lt;/p&gt;
 &lt;h5&gt;Doesn't this mean you end up with God classes?&lt;/h5&gt;
 &lt;p&gt;No. As step one detailed - small, well focused classes are a good thing.
-They just should remain as implementation details.&lt;/p&gt;</content><category term="3-steps-code-quality"></category><category term="tdd"></category></entry><entry><title>Pair Programming vs Pairing</title><link href="/2014/12/pair-programming-vs-pairing.html" rel="alternate"></link><published>2014-12-01T00:00:00+01:00</published><updated>2014-12-01T00:00:00+01:00</updated><author><name>Shaun Finglas</name></author><id>tag:None,2014-12-01:/2014/12/pair-programming-vs-pairing.html</id><summary type="html">&lt;p&gt;I'm a fan of pair programming. I owe a lot of this practice to my
+They just should remain as implementation details.&lt;/p&gt;</content><category term="3-steps-code-quality"></category><category term="tdd"></category></entry><entry><title>Pair Programming vs Pairing</title><link href="https://blog.shaunfinglas.co.uk/2014/12/pair-programming-vs-pairing.html" rel="alternate"></link><published>2014-12-01T00:00:00+01:00</published><updated>2014-12-01T00:00:00+01:00</updated><author><name>Shaun Finglas</name></author><id>tag:blog.shaunfinglas.co.uk,2014-12-01:/2014/12/pair-programming-vs-pairing.html</id><summary type="html">&lt;p&gt;I'm a fan of pair programming. I owe a lot of this practice to my
 improvement early on in my career. I define pair programming as two
 developers working on a task using one or more machines at the same
 time.&lt;/p&gt;
@@ -316,7 +316,7 @@ have two developers working on the same part of a task at all times.
 &lt;strong&gt;Pair programming and pairing are two very distinct concepts&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;The key takeaway here is to know when to use pairing over pair
 programming and vice versa. Both have their merits and should be applied
-in the correct context.&lt;/p&gt;</content><category term="developers"></category><category term="retro"></category></entry><entry><title>Stop Making Everything Public</title><link href="/2014/12/stop-making-everything-public.html" rel="alternate"></link><published>2014-12-01T00:00:00+01:00</published><updated>2014-12-01T00:00:00+01:00</updated><author><name>Shaun Finglas</name></author><id>tag:None,2014-12-01:/2014/12/stop-making-everything-public.html</id><summary type="html">&lt;p&gt;Part one of my &lt;a href="https://blog.shaunfinglas.co.uk/2014/12/three-steps-to-code-quality-via-tdd.html"&gt;Three Steps to Code Quality via TDD
+in the correct context.&lt;/p&gt;</content><category term="developers"></category><category term="retro"></category></entry><entry><title>Stop Making Everything Public</title><link href="https://blog.shaunfinglas.co.uk/2014/12/stop-making-everything-public.html" rel="alternate"></link><published>2014-12-01T00:00:00+01:00</published><updated>2014-12-01T00:00:00+01:00</updated><author><name>Shaun Finglas</name></author><id>tag:blog.shaunfinglas.co.uk,2014-12-01:/2014/12/stop-making-everything-public.html</id><summary type="html">&lt;p&gt;Part one of my &lt;a href="https://blog.shaunfinglas.co.uk/2014/12/three-steps-to-code-quality-via-tdd.html"&gt;Three Steps to Code Quality via TDD
 series&lt;/a&gt;.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Part 2 - &lt;a href="https://blog.shaunfinglas.co.uk/2014/12/limit-amount-of-dependencies-you-use.html"&gt;Limit the Amount of Dependencies you
@@ -379,7 +379,7 @@ be wrote at this level then. Just find the right test seam.&lt;/p&gt;
 &lt;p&gt;The ability to switch implementation details without breaking public
 functionality. A whole world of refactoring options are available,
 inline method, extract method, extract class, inline class, replace with
-library and so forth. As long as the tests pass, you can be confident.&lt;/p&gt;</content><category term="3-steps-code-quality"></category><category term="tdd"></category></entry><entry><title>Three Steps to Code Quality via TDD</title><link href="/2014/12/three-steps-to-code-quality-via-tdd.html" rel="alternate"></link><published>2014-12-01T00:00:00+01:00</published><updated>2014-12-01T00:00:00+01:00</updated><author><name>Shaun Finglas</name></author><id>tag:None,2014-12-01:/2014/12/three-steps-to-code-quality-via-tdd.html</id><summary type="html">&lt;p&gt;Common complaints and problems that I've both encountered and hear other
+library and so forth. As long as the tests pass, you can be confident.&lt;/p&gt;</content><category term="3-steps-code-quality"></category><category term="tdd"></category></entry><entry><title>Three Steps to Code Quality via TDD</title><link href="https://blog.shaunfinglas.co.uk/2014/12/three-steps-to-code-quality-via-tdd.html" rel="alternate"></link><published>2014-12-01T00:00:00+01:00</published><updated>2014-12-01T00:00:00+01:00</updated><author><name>Shaun Finglas</name></author><id>tag:blog.shaunfinglas.co.uk,2014-12-01:/2014/12/three-steps-to-code-quality-via-tdd.html</id><summary type="html">&lt;p&gt;Common complaints and problems that I've both encountered and hear other
 developers raise when it comes to the practice of Test Driven
 Development are:&lt;/p&gt;
 &lt;ul&gt;
@@ -410,7 +410,7 @@ code mercifully in order to improve code quality.&lt;/p&gt;
 &lt;p&gt;Code quality is a tricky subject and highly subjective, however if you
 follow the three guidelines above you should have the ability to
 radically change implementation details and therefore improve code
-quality when needed.&lt;/p&gt;</content><category term="3-steps-code-quality"></category><category term="tdd"></category></entry><entry><title>Dependency Injection (DI) Containers</title><link href="/2014/11/dependency-injection-di-containers.html" rel="alternate"></link><published>2014-11-01T00:00:00+01:00</published><updated>2014-11-01T00:00:00+01:00</updated><author><name>Shaun Finglas</name></author><id>tag:None,2014-11-01:/2014/11/dependency-injection-di-containers.html</id><summary type="html">&lt;h2&gt;Strengths&lt;/h2&gt;
+quality when needed.&lt;/p&gt;</content><category term="3-steps-code-quality"></category><category term="tdd"></category></entry><entry><title>Dependency Injection (DI) Containers</title><link href="https://blog.shaunfinglas.co.uk/2014/11/dependency-injection-di-containers.html" rel="alternate"></link><published>2014-11-01T00:00:00+01:00</published><updated>2014-11-01T00:00:00+01:00</updated><author><name>Shaun Finglas</name></author><id>tag:blog.shaunfinglas.co.uk,2014-11-01:/2014/11/dependency-injection-di-containers.html</id><summary type="html">&lt;h2&gt;Strengths&lt;/h2&gt;
 &lt;dl&gt;
 &lt;dt&gt;One place for configuration&lt;/dt&gt;
 &lt;dd&gt;Rather than scattered through out the system. Most DI containers
@@ -485,7 +485,7 @@ instance between house instances.&lt;/dd&gt;
 &lt;dd&gt;As always you can &lt;a href="http://blog.thecodewhisperer.com/2011/12/07/refactor-your-way-to-a-dependency-injection-container/"&gt;refactor towards an DI
 container&lt;/a&gt;
 if you feel the need to use one.&lt;/dd&gt;
-&lt;/dl&gt;</content><category term="programming"></category></entry><entry><title>Ratcheting</title><link href="/2014/11/ratcheting.html" rel="alternate"></link><published>2014-11-01T00:00:00+01:00</published><updated>2014-11-01T00:00:00+01:00</updated><author><name>Shaun Finglas</name></author><id>tag:None,2014-11-01:/2014/11/ratcheting.html</id><summary type="html">&lt;p&gt;Some tasks in software development are mundane such as formatting and
+&lt;/dl&gt;</content><category term="programming"></category></entry><entry><title>Ratcheting</title><link href="https://blog.shaunfinglas.co.uk/2014/11/ratcheting.html" rel="alternate"></link><published>2014-11-01T00:00:00+01:00</published><updated>2014-11-01T00:00:00+01:00</updated><author><name>Shaun Finglas</name></author><id>tag:blog.shaunfinglas.co.uk,2014-11-01:/2014/11/ratcheting.html</id><summary type="html">&lt;p&gt;Some tasks in software development are mundane such as formatting and
 code conventions. Where possible tooling should take away some of this
 pain, however sometimes you need a developer to take on a task that
 requires a great deal of time and/or effort to complete. Tooling will
@@ -523,7 +523,7 @@ meaning no new projects can have a warning count greater than zero.&lt;/p&gt;
 &lt;p&gt;It turns out this has been documented before - its called
 &lt;a href="http://martinfowler.com/articles/useOfMetrics.html#MetricsAsARatchet"&gt;Ratcheting&lt;/a&gt;.
 While I didn't know it at the time its nice to have a name to use when
-&lt;a href="http://bugroll.com/ratcheting.html"&gt;describing this technique&lt;/a&gt;.&lt;/p&gt;</content><category term="testing"></category><category term="programming"></category></entry><entry><title>Characterization Tests</title><link href="/2014/10/characterization-tests.html" rel="alternate"></link><published>2014-10-01T00:00:00+02:00</published><updated>2014-10-01T00:00:00+02:00</updated><author><name>Shaun Finglas</name></author><id>tag:None,2014-10-01:/2014/10/characterization-tests.html</id><summary type="html">&lt;p&gt;Having worked with some truly awful codebases a common problem tends to
+&lt;a href="http://bugroll.com/ratcheting.html"&gt;describing this technique&lt;/a&gt;.&lt;/p&gt;</content><category term="testing"></category><category term="programming"></category></entry><entry><title>Characterization Tests</title><link href="https://blog.shaunfinglas.co.uk/2014/10/characterization-tests.html" rel="alternate"></link><published>2014-10-01T00:00:00+02:00</published><updated>2014-10-01T00:00:00+02:00</updated><author><name>Shaun Finglas</name></author><id>tag:blog.shaunfinglas.co.uk,2014-10-01:/2014/10/characterization-tests.html</id><summary type="html">&lt;p&gt;Having worked with some truly awful codebases a common problem tends to
 arise every now and then. You need to make a change within some legacy
 component that most likely has limited or no automated tests around.
 This can be a scary process.&lt;/p&gt;
@@ -571,7 +571,7 @@ also document the current behaviour of the system - bugs included.&lt;/p&gt;
 &lt;li&gt;&lt;a href="http://www.amazon.co.uk/Working-Effectively-Legacy-Robert-Martin/dp/0131177052"&gt;Working Effectively with Legacy
     Code&lt;/a&gt; -
     a must read book for anyone working with legacy code.&lt;/li&gt;
-&lt;/ul&gt;</content><category term="testing"></category><category term="programming"></category></entry><entry><title>Do it right - violate YAGNI</title><link href="/2014/10/do-it-right-violate-yagni.html" rel="alternate"></link><published>2014-10-01T00:00:00+02:00</published><updated>2014-10-01T00:00:00+02:00</updated><author><name>Shaun Finglas</name></author><id>tag:None,2014-10-01:/2014/10/do-it-right-violate-yagni.html</id><summary type="html">&lt;p&gt;You Ain't Gonna Need It or YAGNI is about not writing code that is not
+&lt;/ul&gt;</content><category term="testing"></category><category term="programming"></category></entry><entry><title>Do it right - violate YAGNI</title><link href="https://blog.shaunfinglas.co.uk/2014/10/do-it-right-violate-yagni.html" rel="alternate"></link><published>2014-10-01T00:00:00+02:00</published><updated>2014-10-01T00:00:00+02:00</updated><author><name>Shaun Finglas</name></author><id>tag:blog.shaunfinglas.co.uk,2014-10-01:/2014/10/do-it-right-violate-yagni.html</id><summary type="html">&lt;p&gt;You Ain't Gonna Need It or YAGNI is about not writing code that is not
 needed. I've gone on to realise how important this is when it comes to
 &lt;a href="https://blog.shaunfinglas.co.uk/2014/08/program-for-change.html"&gt;programming for
 change&lt;/a&gt;.&lt;/p&gt;
@@ -590,7 +590,7 @@ dead procedural statements one after the next, the whole benefit of
 using TDD or writing automated tests is gone. You'd be more than capable
 of doing this yourself.&lt;/p&gt;
 &lt;p&gt;My discover here was simple. Don't skip the refactor part of TDD. Don't
-allow someone to play the YAGNI card. Do it right.&lt;/p&gt;</content><category term="retro"></category></entry><entry><title>Practice, Practice, Practice</title><link href="/2014/10/practice-practice-practice.html" rel="alternate"></link><published>2014-10-01T00:00:00+02:00</published><updated>2014-10-01T00:00:00+02:00</updated><author><name>Shaun Finglas</name></author><id>tag:None,2014-10-01:/2014/10/practice-practice-practice.html</id><summary type="html">&lt;p&gt;The final part of my "&lt;a href="https://blog.shaunfinglas.co.uk/2013/04/3-years-at-codeweavers.html"&gt;4 years as a Dev
+allow someone to play the YAGNI card. Do it right.&lt;/p&gt;</content><category term="retro"></category></entry><entry><title>Practice, Practice, Practice</title><link href="https://blog.shaunfinglas.co.uk/2014/10/practice-practice-practice.html" rel="alternate"></link><published>2014-10-01T00:00:00+02:00</published><updated>2014-10-01T00:00:00+02:00</updated><author><name>Shaun Finglas</name></author><id>tag:blog.shaunfinglas.co.uk,2014-10-01:/2014/10/practice-practice-practice.html</id><summary type="html">&lt;p&gt;The final part of my "&lt;a href="https://blog.shaunfinglas.co.uk/2013/04/3-years-at-codeweavers.html"&gt;4 years as a Dev
 series&lt;/a&gt;"
 has the same conclusion as the &lt;a href="https://blog.shaunfinglas.co.uk/2011/08/ten-things-graduate-will-experience.html"&gt;last set of retrospective
 posts&lt;/a&gt;.&lt;/p&gt;
@@ -616,7 +616,7 @@ posts&lt;/a&gt;.&lt;/p&gt;
 &lt;li&gt;Conferences&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;All of these mediums help, but as I've said before, practice, practice,
-practice.&lt;/p&gt;</content><category term="retro"></category></entry><entry><title>Reinvent the Wheel, Often</title><link href="/2014/10/reinvent-wheel-often.html" rel="alternate"></link><published>2014-10-01T00:00:00+02:00</published><updated>2014-10-01T00:00:00+02:00</updated><author><name>Shaun Finglas</name></author><id>tag:None,2014-10-01:/2014/10/reinvent-wheel-often.html</id><summary type="html">&lt;p&gt;We are often never told to reinvent the wheel. In other words, if your
+practice.&lt;/p&gt;</content><category term="retro"></category></entry><entry><title>Reinvent the Wheel, Often</title><link href="https://blog.shaunfinglas.co.uk/2014/10/reinvent-wheel-often.html" rel="alternate"></link><published>2014-10-01T00:00:00+02:00</published><updated>2014-10-01T00:00:00+02:00</updated><author><name>Shaun Finglas</name></author><id>tag:blog.shaunfinglas.co.uk,2014-10-01:/2014/10/reinvent-wheel-often.html</id><summary type="html">&lt;p&gt;We are often never told to reinvent the wheel. In other words, if your
 job is solve problems within Domain X you shouldn't spend your time
 recreating or solving problems that fall outside of this domain.&lt;/p&gt;
 &lt;p&gt;For production code, this I agree with this statement fully. Software
@@ -657,7 +657,7 @@ solve all the edge cases you don't. Not to mention the vast amount of
 other users that will have debugged and improved the solution going
 forwards. By not reinventing wheels you get as much time as possible to
 focus on delivering your solution to the domain problem in question,
-which after all is your job.&lt;/p&gt;</content><category term="retro"></category></entry><entry><title>DDD Validation</title><link href="/2014/09/ddd-validation.html" rel="alternate"></link><published>2014-09-01T00:00:00+02:00</published><updated>2014-09-01T00:00:00+02:00</updated><author><name>Shaun Finglas</name></author><id>tag:None,2014-09-01:/2014/09/ddd-validation.html</id><summary type="html">&lt;p&gt;Validation within an application (specifically in terms of &lt;a href="http://en.wikipedia.org/wiki/Domain-driven_design"&gt;Domain
+which after all is your job.&lt;/p&gt;</content><category term="retro"></category></entry><entry><title>DDD Validation</title><link href="https://blog.shaunfinglas.co.uk/2014/09/ddd-validation.html" rel="alternate"></link><published>2014-09-01T00:00:00+02:00</published><updated>2014-09-01T00:00:00+02:00</updated><author><name>Shaun Finglas</name></author><id>tag:blog.shaunfinglas.co.uk,2014-09-01:/2014/09/ddd-validation.html</id><summary type="html">&lt;p&gt;Validation within an application (specifically in terms of &lt;a href="http://en.wikipedia.org/wiki/Domain-driven_design"&gt;Domain
 Driven Design - DDD&lt;/a&gt;)
 can be solved in a variety of ways.&lt;/p&gt;
 &lt;ul&gt;
@@ -705,7 +705,7 @@ future changes are easier.&lt;/p&gt;
 
 &lt;p&gt;The beauty here is that each validator (a simple function in this case)
 can be used in the correct context. E.g. when the PersonController POST
-handler is invoked, we use the person saving validator.&lt;/p&gt;</content><category term="programming"></category><category term="tutorial"></category></entry><entry><title>Developer Diaries</title><link href="/2014/09/developer-diaries.html" rel="alternate"></link><published>2014-09-01T00:00:00+02:00</published><updated>2014-09-01T00:00:00+02:00</updated><author><name>Shaun Finglas</name></author><id>tag:None,2014-09-01:/2014/09/developer-diaries.html</id><summary type="html">&lt;p&gt;A few weeks back I stumbled across a tweet which I unfortunately cannot
+handler is invoked, we use the person saving validator.&lt;/p&gt;</content><category term="programming"></category><category term="tutorial"></category></entry><entry><title>Developer Diaries</title><link href="https://blog.shaunfinglas.co.uk/2014/09/developer-diaries.html" rel="alternate"></link><published>2014-09-01T00:00:00+02:00</published><updated>2014-09-01T00:00:00+02:00</updated><author><name>Shaun Finglas</name></author><id>tag:blog.shaunfinglas.co.uk,2014-09-01:/2014/09/developer-diaries.html</id><summary type="html">&lt;p&gt;A few weeks back I stumbled across a tweet which I unfortunately cannot
 find to give credit to. It talked about the benefit of keeping a
 developer diary.&lt;/p&gt;
 &lt;p&gt;At the same time I was reading &lt;a href="http://www.amazon.co.uk/Getting-Things-Done-Stress-free-Productivity/dp/0749922648"&gt;Getting Things Done
@@ -742,7 +742,7 @@ how awful my memory is regarding it. If I skim across the document now,
 I'm alarmed at the stuff that I would have forgotten had I not taken a
 note. It's quite possible that I would remember some of this information
 in the long term, but regular skim readings of the diary is proving very
-helpful.&lt;/p&gt;</content><category term="retro"></category><category term="tutorial"></category></entry><entry><title>Program for Change</title><link href="/2014/08/program-for-change.html" rel="alternate"></link><published>2014-08-01T00:00:00+02:00</published><updated>2014-08-01T00:00:00+02:00</updated><author><name>Shaun Finglas</name></author><id>tag:None,2014-08-01:/2014/08/program-for-change.html</id><summary type="html">&lt;p&gt;We should program for change AKA the &lt;a href="http://en.wikipedia.org/wiki/Open/closed_principle"&gt;Open/Closed
+helpful.&lt;/p&gt;</content><category term="retro"></category><category term="tutorial"></category></entry><entry><title>Program for Change</title><link href="https://blog.shaunfinglas.co.uk/2014/08/program-for-change.html" rel="alternate"></link><published>2014-08-01T00:00:00+02:00</published><updated>2014-08-01T00:00:00+02:00</updated><author><name>Shaun Finglas</name></author><id>tag:blog.shaunfinglas.co.uk,2014-08-01:/2014/08/program-for-change.html</id><summary type="html">&lt;p&gt;We should program for change AKA the &lt;a href="http://en.wikipedia.org/wiki/Open/closed_principle"&gt;Open/Closed
 Principle&lt;/a&gt;. In my
 opinion, the OCP is one of the lesser respected SOLID principles. One of
 my biggest, and earliest failures fresh out of university was ignoring
@@ -792,7 +792,7 @@ would drive us towards how the algorithm would work.&lt;/p&gt;
 change would be data driven. We would be able to give this the business
 for "free".&lt;/p&gt;
 &lt;p&gt;I still regret this mistake, but this lesson has lived with for some
-time and has proved to be a valuable experience.&lt;/p&gt;</content><category term="retro"></category></entry><entry><title>Stop.Mocking.EVERYTHING</title><link href="/2014/08/stopmockingeverything.html" rel="alternate"></link><published>2014-08-01T00:00:00+02:00</published><updated>2014-08-01T00:00:00+02:00</updated><author><name>Shaun Finglas</name></author><id>tag:None,2014-08-01:/2014/08/stopmockingeverything.html</id><summary type="html">&lt;p&gt;I've flip flopped on how to use mock objects since 2008. It's took me
+time and has proved to be a valuable experience.&lt;/p&gt;</content><category term="retro"></category></entry><entry><title>Stop.Mocking.EVERYTHING</title><link href="https://blog.shaunfinglas.co.uk/2014/08/stopmockingeverything.html" rel="alternate"></link><published>2014-08-01T00:00:00+02:00</published><updated>2014-08-01T00:00:00+02:00</updated><author><name>Shaun Finglas</name></author><id>tag:blog.shaunfinglas.co.uk,2014-08-01:/2014/08/stopmockingeverything.html</id><summary type="html">&lt;p&gt;I've flip flopped on how to use mock objects since 2008. It's took me
 nearly five years to finally claim to have a solid, practical answer on
 what is in my opinion, their correct use.&lt;/p&gt;
 &lt;h4&gt;Mock Everything&lt;/h4&gt;
@@ -844,7 +844,7 @@ to refactor the internals aggressively, without the fear of breaking or
 rewriting tests.&lt;/p&gt;
 &lt;p&gt;This approach has served me well for a while now, and in fact can be
 achieved even without the need to use a complicated mocking framework,
-though that will be the subject of a future post.&lt;/p&gt;</content><category term="programming"></category><category term="retro"></category><category term="tdd"></category></entry><entry><title>Dont Tie Yourself to a Framework</title><link href="/2014/07/dont-tie-yourself-to-framework.html" rel="alternate"></link><published>2014-07-22T19:19:00+02:00</published><updated>2014-07-22T19:19:00+02:00</updated><author><name>Shaun Finglas</name></author><id>tag:None,2014-07-22:/2014/07/dont-tie-yourself-to-framework.html</id><summary type="html">&lt;ul&gt;
+though that will be the subject of a future post.&lt;/p&gt;</content><category term="programming"></category><category term="retro"></category><category term="tdd"></category></entry><entry><title>Dont Tie Yourself to a Framework</title><link href="https://blog.shaunfinglas.co.uk/2014/07/dont-tie-yourself-to-framework.html" rel="alternate"></link><published>2014-07-22T19:19:00+02:00</published><updated>2014-07-22T19:19:00+02:00</updated><author><name>Shaun Finglas</name></author><id>tag:blog.shaunfinglas.co.uk,2014-07-22:/2014/07/dont-tie-yourself-to-framework.html</id><summary type="html">&lt;ul&gt;
 &lt;li&gt;
 Programming is great
 
@@ -965,7 +965,7 @@ Easier to change
 &lt;li&gt;Lightweight projects might not need hexagonal architecture&lt;/li&gt;
 &lt;li&gt;SOA or Microservices could mean hexagonal architecture actually
     introduces overhead or complexity - judge on context.&lt;/li&gt;
-&lt;/ul&gt;</content><category term="programming"></category></entry><entry><title>I Need to Stop Misusing Namespaces</title><link href="/2014/07/i-need-to-stop-misusing-namespaces.html" rel="alternate"></link><published>2014-07-01T00:00:00+02:00</published><updated>2014-07-01T00:00:00+02:00</updated><author><name>Shaun Finglas</name></author><id>tag:None,2014-07-01:/2014/07/i-need-to-stop-misusing-namespaces.html</id><summary type="html">&lt;p&gt;At the recent &lt;a href="https://skillsmatter.com/conferences/6198-nsbcon"&gt;NSBCon&lt;/a&gt;
+&lt;/ul&gt;</content><category term="programming"></category></entry><entry><title>I Need to Stop Misusing Namespaces</title><link href="https://blog.shaunfinglas.co.uk/2014/07/i-need-to-stop-misusing-namespaces.html" rel="alternate"></link><published>2014-07-01T00:00:00+02:00</published><updated>2014-07-01T00:00:00+02:00</updated><author><name>Shaun Finglas</name></author><id>tag:blog.shaunfinglas.co.uk,2014-07-01:/2014/07/i-need-to-stop-misusing-namespaces.html</id><summary type="html">&lt;p&gt;At the recent &lt;a href="https://skillsmatter.com/conferences/6198-nsbcon"&gt;NSBCon&lt;/a&gt;
 one interesting question that came about was how to structure a project.
 The panel consisting of various speakers had no answer, after all this
 is dependant upon the project in question. Therefore there is no right
@@ -1014,7 +1014,7 @@ together the objects and types that are used together.&lt;/p&gt;
 always possible. Some coding conventions actually encourage the first
 example, and depending on the configurability of certain frameworks this
 may prove difficult. That aside, I'll be making a strong push towards
-structuring my projects correctly going forwards.&lt;/p&gt;</content><category term="programming"></category><category term="tutorial"></category></entry><entry><title>SOA Done Badly vs SOA Done Right</title><link href="/2014/07/soa-done-badly-vs-soa-done-right.html" rel="alternate"></link><published>2014-07-01T00:00:00+02:00</published><updated>2014-07-01T00:00:00+02:00</updated><author><name>Shaun Finglas</name></author><id>tag:None,2014-07-01:/2014/07/soa-done-badly-vs-soa-done-right.html</id><summary type="html">&lt;p&gt;I was under the assumption I had been doing SOA for over 3 years.
+structuring my projects correctly going forwards.&lt;/p&gt;</content><category term="programming"></category><category term="tutorial"></category></entry><entry><title>SOA Done Badly vs SOA Done Right</title><link href="https://blog.shaunfinglas.co.uk/2014/07/soa-done-badly-vs-soa-done-right.html" rel="alternate"></link><published>2014-07-01T00:00:00+02:00</published><updated>2014-07-01T00:00:00+02:00</updated><author><name>Shaun Finglas</name></author><id>tag:blog.shaunfinglas.co.uk,2014-07-01:/2014/07/soa-done-badly-vs-soa-done-right.html</id><summary type="html">&lt;p&gt;I was under the assumption I had been doing SOA for over 3 years.
 Previously I have had services which did stuff, these talked to other
 services which did other stuff and so on. We would group services around
 functionality.&lt;/p&gt;
@@ -1092,7 +1092,7 @@ to enable applications to be created from services is another great
 benefit. This enables so called "mashups".&lt;/p&gt;
 &lt;p&gt;I'll expand on these topics over time, but I am certain this method of
 vertically slicing services based upon business capabilities will be my
-default approach going forward.&lt;/p&gt;</content><category term="architecture"></category><category term="programming"></category></entry><entry><title>The Importance of Tools</title><link href="/2014/07/the-importance-of-tools-one-of-most.html" rel="alternate"></link><published>2014-07-01T00:00:00+02:00</published><updated>2014-07-01T00:00:00+02:00</updated><author><name>Shaun Finglas</name></author><id>tag:None,2014-07-01:/2014/07/the-importance-of-tools-one-of-most.html</id><summary type="html">&lt;p&gt;One of the most influential books I've read on software development has
+default approach going forward.&lt;/p&gt;</content><category term="architecture"></category><category term="programming"></category></entry><entry><title>The Importance of Tools</title><link href="https://blog.shaunfinglas.co.uk/2014/07/the-importance-of-tools-one-of-most.html" rel="alternate"></link><published>2014-07-01T00:00:00+02:00</published><updated>2014-07-01T00:00:00+02:00</updated><author><name>Shaun Finglas</name></author><id>tag:blog.shaunfinglas.co.uk,2014-07-01:/2014/07/the-importance-of-tools-one-of-most.html</id><summary type="html">&lt;p&gt;One of the most influential books I've read on software development has
 been &lt;a href="http://www.amazon.co.uk/gp/product/020161622X/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&amp;amp;camp=1634&amp;amp;creative=6738&amp;amp;creativeASIN=020161622X&amp;amp;linkCode=as2&amp;amp;tag=bloshafin-21"&gt;The Pragmatic
 Programmer&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;One of the key points raised within the book is that of automation and
@@ -1121,7 +1121,7 @@ should be composable, proven solutions where possible. In other words,
 rather than something that must be configured via a GUI, opt for
 something that can be automated. Also ensure that you are not
 re-inventing the wheel unnecessarily. Save your time and energy on
-creating the custom tooling you can't get "off the shelf".&lt;/p&gt;</content><category term="retro"></category></entry><entry><title>Flexible Selenium Tests via Page Objects</title><link href="/2014/05/flexible-selenium-tests-via-page-objects.html" rel="alternate"></link><published>2014-05-01T00:00:00+02:00</published><updated>2014-05-01T00:00:00+02:00</updated><author><name>Shaun Finglas</name></author><id>tag:None,2014-05-01:/2014/05/flexible-selenium-tests-via-page-objects.html</id><summary type="html">&lt;p&gt;A fast, automated suite of unit and integration tests are not enough. At
+creating the custom tooling you can't get "off the shelf".&lt;/p&gt;</content><category term="retro"></category></entry><entry><title>Flexible Selenium Tests via Page Objects</title><link href="https://blog.shaunfinglas.co.uk/2014/05/flexible-selenium-tests-via-page-objects.html" rel="alternate"></link><published>2014-05-01T00:00:00+02:00</published><updated>2014-05-01T00:00:00+02:00</updated><author><name>Shaun Finglas</name></author><id>tag:blog.shaunfinglas.co.uk,2014-05-01:/2014/05/flexible-selenium-tests-via-page-objects.html</id><summary type="html">&lt;p&gt;A fast, automated suite of unit and integration tests are not enough. At
 some point you'll need to test your presentation logic. Ideally your
 domain/business/game logic is stubbed so all you'll need to do at this
 point is check that the presentation is complete. For example, does view …&lt;/p&gt;</summary><content type="html">&lt;p&gt;A fast, automated suite of unit and integration tests are not enough. At
@@ -1188,7 +1188,7 @@ Github&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Choose a style based on context. Given more than a handful of tests then
 page objects are worth the extra cost, the ability to evolve your UI
 while maintaining end to end tests is worth some additional complexity
-at first.&lt;/p&gt;</content><category term="testing"></category></entry><entry><title>Learning Tests</title><link href="/2014/05/learning-tests.html" rel="alternate"></link><published>2014-05-01T00:00:00+02:00</published><updated>2014-05-01T00:00:00+02:00</updated><author><name>Shaun Finglas</name></author><id>tag:None,2014-05-01:/2014/05/learning-tests.html</id><summary type="html">&lt;p&gt;At the last &lt;a href="http://www.agilestaffordshire.org/"&gt;Agile Staffordshire&lt;/a&gt; I
+at first.&lt;/p&gt;</content><category term="testing"></category></entry><entry><title>Learning Tests</title><link href="https://blog.shaunfinglas.co.uk/2014/05/learning-tests.html" rel="alternate"></link><published>2014-05-01T00:00:00+02:00</published><updated>2014-05-01T00:00:00+02:00</updated><author><name>Shaun Finglas</name></author><id>tag:blog.shaunfinglas.co.uk,2014-05-01:/2014/05/learning-tests.html</id><summary type="html">&lt;p&gt;At the last &lt;a href="http://www.agilestaffordshire.org/"&gt;Agile Staffordshire&lt;/a&gt; I
 attended &lt;a href="http://www.agilestaffordshire.org/agile/january-2014-kata-with-constraints/"&gt;the task was to complete the string calculator with
 constraints&lt;/a&gt;.
 The group worked in pairs and everything was running smoothly. Until I
@@ -1238,7 +1238,7 @@ which have a slower feedback cycle a form of
 It's a lot quicker to write a test method and execute than it would be
 to spin up a new project in languages such as C# or Java to just try
 something out.&lt;/p&gt;
-&lt;p&gt;Next time you're stuck, try writing a test.&lt;/p&gt;</content><category term="testing"></category><category term="tdd"></category></entry><entry><title>Design is Important</title><link href="/2014/04/design-is-important.html" rel="alternate"></link><published>2014-04-01T00:00:00+02:00</published><updated>2014-04-01T00:00:00+02:00</updated><author><name>Shaun Finglas</name></author><id>tag:None,2014-04-01:/2014/04/design-is-important.html</id><summary type="html">&lt;p&gt;When I was a student I used to cheat. Not in exams or practical
+&lt;p&gt;Next time you're stuck, try writing a test.&lt;/p&gt;</content><category term="testing"></category><category term="tdd"></category></entry><entry><title>Design is Important</title><link href="https://blog.shaunfinglas.co.uk/2014/04/design-is-important.html" rel="alternate"></link><published>2014-04-01T00:00:00+02:00</published><updated>2014-04-01T00:00:00+02:00</updated><author><name>Shaun Finglas</name></author><id>tag:blog.shaunfinglas.co.uk,2014-04-01:/2014/04/design-is-important.html</id><summary type="html">&lt;p&gt;When I was a student I used to cheat. Not in exams or practical
 assignments, but I used to cheat when it came to my process to develop
 code. Early on I noticed a common pattern. After receiving an assignment
 I would perform some analysis, figure out a basic design …&lt;/p&gt;</summary><content type="html">&lt;p&gt;When I was a student I used to cheat. Not in exams or practical
@@ -1369,7 +1369,7 @@ the problem, not the design or architecture.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;None of these are ground breaking ideas, but combined these approaches
-have served me well both personally and professionally.&lt;/p&gt;</content><category term="programming"></category></entry><entry><title>TDD is a Tool</title><link href="/2014/02/tdd-is-tool.html" rel="alternate"></link><published>2014-02-01T00:00:00+01:00</published><updated>2014-02-01T00:00:00+01:00</updated><author><name>Shaun Finglas</name></author><id>tag:None,2014-02-01:/2014/02/tdd-is-tool.html</id><summary type="html">&lt;p&gt;I remember being introduced to Test Driven Development (TDD) very well.
+have served me well both personally and professionally.&lt;/p&gt;</content><category term="programming"></category></entry><entry><title>TDD is a Tool</title><link href="https://blog.shaunfinglas.co.uk/2014/02/tdd-is-tool.html" rel="alternate"></link><published>2014-02-01T00:00:00+01:00</published><updated>2014-02-01T00:00:00+01:00</updated><author><name>Shaun Finglas</name></author><id>tag:blog.shaunfinglas.co.uk,2014-02-01:/2014/02/tdd-is-tool.html</id><summary type="html">&lt;p&gt;I remember being introduced to Test Driven Development (TDD) very well.
 This is because it had such an &lt;strong&gt;overwhelming change on how I write code
 day to day&lt;/strong&gt;. It was incredibly alien, difficult, yet rewarding. On this
 journey for the last five years I've changed my style, learned how not …&lt;/p&gt;</summary><content type="html">&lt;p&gt;I remember being introduced to Test Driven Development (TDD) very well.
@@ -1450,7 +1450,7 @@ age many believe that TDD should be mandatory. While I agree, the use
 should be restricted to where and when it makes sense. As for when and
 where, this is up for the developer to decide. Using some of the
 findings above allow me to be pragmatic, yet still have confidence in
-the quality of my code.&lt;/p&gt;</content><category term="programming"></category><category term="tdd"></category></entry><entry><title>The Correct Way to use var in C#</title><link href="/2014/02/the-correct-way-to-use-var-in-c.html" rel="alternate"></link><published>2014-02-01T00:00:00+01:00</published><updated>2014-02-01T00:00:00+01:00</updated><author><name>Shaun Finglas</name></author><id>tag:None,2014-02-01:/2014/02/the-correct-way-to-use-var-in-c.html</id><summary type="html">&lt;p&gt;The .NET community is not widely controversial, though there is a strong
+the quality of my code.&lt;/p&gt;</content><category term="programming"></category><category term="tdd"></category></entry><entry><title>The Correct Way to use var in C#</title><link href="https://blog.shaunfinglas.co.uk/2014/02/the-correct-way-to-use-var-in-c.html" rel="alternate"></link><published>2014-02-01T00:00:00+01:00</published><updated>2014-02-01T00:00:00+01:00</updated><author><name>Shaun Finglas</name></author><id>tag:blog.shaunfinglas.co.uk,2014-02-01:/2014/02/the-correct-way-to-use-var-in-c.html</id><summary type="html">&lt;p&gt;The .NET community is not widely controversial, though there is a strong
 topic that appears to come up time and time again when I pair with other
 developers - how to use &lt;code&gt;var&lt;/code&gt; in C#.&lt;/p&gt;
 &lt;p&gt;The &lt;code&gt;var&lt;/code&gt; keyword was introduced in .NET 3.5. Unlike other languages
@@ -1495,7 +1495,7 @@ correct.&lt;/p&gt;
 &lt;h3&gt;Bonus&lt;/h3&gt;
 &lt;p&gt;Talking of Resharper, a quick &lt;code&gt;Alt+Enter&lt;/code&gt; on a type/implicit declaration
 will allow you to switch between modes, meaning you can be lazy and have
-the IDE pull in the right type when required.&lt;/p&gt;</content><category term="programming"></category><category term="tutorial"></category></entry><entry><title>Top Down vs Bottom Up</title><link href="/2014/02/top-down-vs-bottom-up.html" rel="alternate"></link><published>2014-02-01T00:00:00+01:00</published><updated>2014-02-01T00:00:00+01:00</updated><author><name>Shaun Finglas</name></author><id>tag:None,2014-02-01:/2014/02/top-down-vs-bottom-up.html</id><summary type="html">&lt;p&gt;&lt;strong&gt;Top down development&lt;/strong&gt; has you starting at the highest point in the
+the IDE pull in the right type when required.&lt;/p&gt;</content><category term="programming"></category><category term="tutorial"></category></entry><entry><title>Top Down vs Bottom Up</title><link href="https://blog.shaunfinglas.co.uk/2014/02/top-down-vs-bottom-up.html" rel="alternate"></link><published>2014-02-01T00:00:00+01:00</published><updated>2014-02-01T00:00:00+01:00</updated><author><name>Shaun Finglas</name></author><id>tag:blog.shaunfinglas.co.uk,2014-02-01:/2014/02/top-down-vs-bottom-up.html</id><summary type="html">&lt;p&gt;&lt;strong&gt;Top down development&lt;/strong&gt; has you starting at the highest point in the
 application that you can. From here you code down until there is nothing
 else left to develop. Once you reach this point you should be code
 complete. Along the way you may need to stub out areas that …&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;strong&gt;Top down development&lt;/strong&gt; has you starting at the highest point in the

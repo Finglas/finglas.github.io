@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Shaun Finglas - 2017</title><link href="/" rel="alternate"></link><link href="/feeds/2017.atom.xml" rel="self"></link><id>/</id><updated>2017-08-08T00:00:00+02:00</updated><entry><title>Code Smell: Time Span Embedded in Variable</title><link href="/2017/01/code-smell-time-span-embedded-in-variable.html" rel="alternate"></link><published>2017-08-08T00:00:00+02:00</published><updated>2017-08-08T00:00:00+02:00</updated><author><name>Shaun Finglas</name></author><id>tag:None,2017-08-08:/2017/01/code-smell-time-span-embedded-in-variable.html</id><summary type="html">&lt;p&gt;A common code smell that tends to go unnoticed is embedding a time span within a variable name. While developers recognize that embedding types into names is redundant they often fail to see this smell.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Shaun Finglas - 2017</title><link href="https://blog.shaunfinglas.co.uk/" rel="alternate"></link><link href="https://blog.shaunfinglas.co.uk/feeds/2017.atom.xml" rel="self"></link><id>https://blog.shaunfinglas.co.uk/</id><updated>2017-08-08T00:00:00+02:00</updated><entry><title>Code Smell: Time Span Embedded in Variable</title><link href="https://blog.shaunfinglas.co.uk/2017/01/code-smell-time-span-embedded-in-variable.html" rel="alternate"></link><published>2017-08-08T00:00:00+02:00</published><updated>2017-08-08T00:00:00+02:00</updated><author><name>Shaun Finglas</name></author><id>tag:blog.shaunfinglas.co.uk,2017-08-08:/2017/01/code-smell-time-span-embedded-in-variable.html</id><summary type="html">&lt;p&gt;A common code smell that tends to go unnoticed is embedding a time span within a variable name. While developers recognize that embedding types into names is redundant they often fail to see this smell.&lt;/p&gt;
 &lt;p&gt;You often need a variable to trigger on a set period, such as every fifteen …&lt;/p&gt;</summary><content type="html">&lt;p&gt;A common code smell that tends to go unnoticed is embedding a time span within a variable name. While developers recognize that embedding types into names is redundant they often fail to see this smell.&lt;/p&gt;
 &lt;p&gt;You often need a variable to trigger on a set period, such as every fifteen minutes. For example:&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;BlogPostFeedPollingIntervalInSeconds = 900
@@ -31,7 +31,7 @@ contrast to doing numerical work with simple integers. Another example would inc
 &lt;li&gt;Check the documentation for your language as time span formats can differ or be tricky to remember.&lt;/li&gt;
 &lt;li&gt;For periods of time (every 3 months on the 1st) time spans are not appropriate by default.&lt;/li&gt;
 &lt;li&gt;For business rules that must trigger on on particular dates as previously use the calendar to work this out.&lt;/li&gt;
-&lt;/ul&gt;</content><category term="code"></category><category term="tutorial"></category></entry><entry><title>Testing your Composition Root</title><link href="/2017/06/testing-your-composition-root.html" rel="alternate"></link><published>2017-06-27T00:00:00+02:00</published><updated>2017-06-27T00:00:00+02:00</updated><author><name>Shaun Finglas</name></author><id>tag:None,2017-06-27:/2017/06/testing-your-composition-root.html</id><summary type="html">&lt;p&gt;Separating configuration from your code itself is a good practice. Unfortunately this can quite be
+&lt;/ul&gt;</content><category term="code"></category><category term="tutorial"></category></entry><entry><title>Testing your Composition Root</title><link href="https://blog.shaunfinglas.co.uk/2017/06/testing-your-composition-root.html" rel="alternate"></link><published>2017-06-27T00:00:00+02:00</published><updated>2017-06-27T00:00:00+02:00</updated><author><name>Shaun Finglas</name></author><id>tag:blog.shaunfinglas.co.uk,2017-06-27:/2017/06/testing-your-composition-root.html</id><summary type="html">&lt;p&gt;Separating configuration from your code itself is a good practice. Unfortunately this can quite be
 quite complex in itself. In fact it is fair to say that in many cases the use of
 &lt;a href="/2014/11/dependency-injection-di-containers.html"&gt;DI containers&lt;/a&gt; to achieve this can be overkill
 for a task that should be rather basic.&lt;/p&gt;
@@ -83,7 +83,7 @@ the feedback loop fast.&lt;/p&gt;
 &lt;li&gt;Do include a single test that resolves your root dependencies.&lt;/li&gt;
 &lt;li&gt;Include appropriate messaging to show how to fix the issue.&lt;/li&gt;
 &lt;li&gt;Dynamic languages should aim to test their composition root can resolve also.&lt;/li&gt;
-&lt;/ul&gt;</content><category term="tutorial"></category><category term="testing"></category></entry><entry><title>Logging vs Auditing</title><link href="/2017/05/logging-vs-auditing.html" rel="alternate"></link><published>2017-05-02T00:00:00+02:00</published><updated>2017-05-02T00:00:00+02:00</updated><author><name>Shaun Finglas</name></author><id>tag:None,2017-05-02:/2017/05/logging-vs-auditing.html</id><summary type="html">&lt;p&gt;The difference between logging and auditing is a subtle yet important
+&lt;/ul&gt;</content><category term="tutorial"></category><category term="testing"></category></entry><entry><title>Logging vs Auditing</title><link href="https://blog.shaunfinglas.co.uk/2017/05/logging-vs-auditing.html" rel="alternate"></link><published>2017-05-02T00:00:00+02:00</published><updated>2017-05-02T00:00:00+02:00</updated><author><name>Shaun Finglas</name></author><id>tag:blog.shaunfinglas.co.uk,2017-05-02:/2017/05/logging-vs-auditing.html</id><summary type="html">&lt;p&gt;The difference between logging and auditing is a subtle yet important
 distinction.&lt;/p&gt;
 &lt;h3&gt;Logging&lt;/h3&gt;
 &lt;ul&gt;
@@ -136,7 +136,7 @@ additional complexity unless the system requires this. Other concerns
 auditing introduces include where to store the data? For how long? And
 what potentially sensitive data can be stored?&lt;/p&gt;
 &lt;p&gt;The key lesson here is that logging and auditing are two very distinct
-concepts and should be treated as such.&lt;/p&gt;</content><category term="summary"></category></entry><entry><title>The QA Test Matrix</title><link href="/2017/04/the-qa-test-matrix.html" rel="alternate"></link><published>2017-04-03T00:00:00+02:00</published><updated>2017-04-03T00:00:00+02:00</updated><author><name>Shaun Finglas</name></author><id>tag:None,2017-04-03:/2017/04/the-qa-test-matrix.html</id><summary type="html">&lt;p&gt;Historically teams I've worked with have taken a few varying approaches
+concepts and should be treated as such.&lt;/p&gt;</content><category term="summary"></category></entry><entry><title>The QA Test Matrix</title><link href="https://blog.shaunfinglas.co.uk/2017/04/the-qa-test-matrix.html" rel="alternate"></link><published>2017-04-03T00:00:00+02:00</published><updated>2017-04-03T00:00:00+02:00</updated><author><name>Shaun Finglas</name></author><id>tag:blog.shaunfinglas.co.uk,2017-04-03:/2017/04/the-qa-test-matrix.html</id><summary type="html">&lt;p&gt;Historically teams I've worked with have taken a few varying approaches
 when designing tests against acceptance criteria. One is to have the
 business define the feature, while the team help define the acceptance
 criteria. Ultimately the business gets the final say if they agree, and
@@ -196,7 +196,7 @@ or tests.&lt;/p&gt;
 form contract for signing off functionality. Once the feature is
 complete it is simply a case of finding the corresponding tests,
 confirming their existence and making a note of the commit that included
-them.&lt;/p&gt;</content><category term="testing"></category></entry><entry><title>Be Humble</title><link href="/2017/01/be-humble.html" rel="alternate"></link><published>2017-01-18T00:00:00+01:00</published><updated>2017-01-18T00:00:00+01:00</updated><author><name>Shaun Finglas</name></author><id>tag:None,2017-01-18:/2017/01/be-humble.html</id><summary type="html">&lt;p&gt;Some of the best developers I know treat everyone with mutual respect.
+them.&lt;/p&gt;</content><category term="testing"></category></entry><entry><title>Be Humble</title><link href="https://blog.shaunfinglas.co.uk/2017/01/be-humble.html" rel="alternate"></link><published>2017-01-18T00:00:00+01:00</published><updated>2017-01-18T00:00:00+01:00</updated><author><name>Shaun Finglas</name></author><id>tag:blog.shaunfinglas.co.uk,2017-01-18:/2017/01/be-humble.html</id><summary type="html">&lt;p&gt;Some of the best developers I know treat everyone with mutual respect.
 Not only this they are open about what they do know and what they don't
 know. In fact they'll often proclaim “I don't know” and go about finding
 out how they can answer your question or solve a …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Some of the best developers I know treat everyone with mutual respect.
@@ -233,7 +233,7 @@ humble about it.&lt;/p&gt;
 &lt;li&gt;Ask for help.&lt;/li&gt;
 &lt;li&gt;Treat everyone equally, as you would like to be treated yourself.&lt;/li&gt;
 &lt;li&gt;Admit it when you are wrong.&lt;/li&gt;
-&lt;/ul&gt;</content><category term="retro"></category></entry><entry><title>Convention Based Tests</title><link href="/2017/01/convention-based-tests.html" rel="alternate"></link><published>2017-01-11T00:00:00+01:00</published><updated>2017-01-11T00:00:00+01:00</updated><author><name>Shaun Finglas</name></author><id>tag:None,2017-01-11:/2017/01/convention-based-tests.html</id><summary type="html">&lt;p&gt;Most projects have some form of convention. Examples would include:&lt;/p&gt;
+&lt;/ul&gt;</content><category term="retro"></category></entry><entry><title>Convention Based Tests</title><link href="https://blog.shaunfinglas.co.uk/2017/01/convention-based-tests.html" rel="alternate"></link><published>2017-01-11T00:00:00+01:00</published><updated>2017-01-11T00:00:00+01:00</updated><author><name>Shaun Finglas</name></author><id>tag:blog.shaunfinglas.co.uk,2017-01-11:/2017/01/convention-based-tests.html</id><summary type="html">&lt;p&gt;Most projects have some form of convention. Examples would include:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Attributes/Properties for REST API's&lt;/li&gt;
 &lt;li&gt;Inheritance for third party base types&lt;/li&gt;
@@ -309,7 +309,7 @@ peer review is required.&lt;/p&gt;
     areas.&lt;/li&gt;
 &lt;li&gt;If a CBT is hard to write, use a test to prompt you to add further
     tests in the future.&lt;/li&gt;
-&lt;/ul&gt;</content><category term="tutorial"></category><category term="testing"></category></entry><entry><title>Finance For Software Developers</title><link href="/2017/01/finance-for-software-developers.html" rel="alternate"></link><published>2017-01-04T00:00:00+01:00</published><updated>2017-01-04T00:00:00+01:00</updated><author><name>Shaun Finglas</name></author><id>tag:None,2017-01-04:/2017/01/finance-for-software-developers.html</id><summary type="html">&lt;p&gt;Back at the start of 2016 I set about sorting my personal finances out,
+&lt;/ul&gt;</content><category term="tutorial"></category><category term="testing"></category></entry><entry><title>Finance For Software Developers</title><link href="https://blog.shaunfinglas.co.uk/2017/01/finance-for-software-developers.html" rel="alternate"></link><published>2017-01-04T00:00:00+01:00</published><updated>2017-01-04T00:00:00+01:00</updated><author><name>Shaun Finglas</name></author><id>tag:blog.shaunfinglas.co.uk,2017-01-04:/2017/01/finance-for-software-developers.html</id><summary type="html">&lt;p&gt;Back at the start of 2016 I set about sorting my personal finances out,
 inspired by &lt;a href="https://www.amazon.co.uk/d/Books/Soft-Skills-software-developers-manual/1617292397"&gt;Soft
 Skills&lt;/a&gt;.
 The book makes a point to consider passive income as a viable solution

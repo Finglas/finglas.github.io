@@ -52,19 +52,14 @@ tests remain as-is, they are still separate from the use of the production confi
 this test does is ensure all wiring up and dependencies are satisfied. In cases where config
 from an external file is used, that too will be exercised.&lt;/p&gt;
 &lt;h2&gt;Example&lt;/h2&gt;
-&lt;table class="highlighttable"&gt;&lt;tr&gt;&lt;td class="linenos"&gt;&lt;div class="linenodiv"&gt;&lt;pre&gt;1
-2
-3
-4
-5
-6&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="na"&gt;[Test]&lt;/span&gt;
-&lt;span class="k"&gt;public&lt;/span&gt; &lt;span class="k"&gt;void&lt;/span&gt; &lt;span class="nf"&gt;ConfigurationTest&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
-&lt;span class="p"&gt;{&lt;/span&gt;
-    &lt;span class="kt"&gt;var&lt;/span&gt; &lt;span class="n"&gt;container&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="n"&gt;Container&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Resolve&lt;/span&gt;&lt;span class="p"&gt;();&lt;/span&gt;
-    &lt;span class="n"&gt;container&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Resolve&lt;/span&gt;&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="n"&gt;RootType&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;();&lt;/span&gt;
-&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="k"&gt;[Test]&lt;/span&gt;
+&lt;span class="na"&gt;public void ConfigurationTest()&lt;/span&gt;
+&lt;span class="na"&gt;{&lt;/span&gt;
+    &lt;span class="na"&gt;var container&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s"&gt;Container.Resolve();&lt;/span&gt;
+&lt;span class="s"&gt;    container.Resolve&amp;lt;RootType&amp;gt;();&lt;/span&gt;
+&lt;span class="na"&gt;}&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
-&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+
 
 &lt;p&gt;The actual resolution aspect on line 5 is optional. There may be other ways to force resolution,
 this may vary based on what library you use. In this example only one type is resolved. If your

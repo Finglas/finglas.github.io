@@ -28,14 +28,6 @@
          title="Permalink to Testing your Composition Root">Testing your Composition Root</a></h2>
  
   </header>
-  <footer class="post-info">
-    <time class="published" datetime="2017-06-27T00:00:00+02:00">
-      Tue 27 June 2017
-    </time>
-    <address class="vcard author">
-      By Shaun Finglas
-    </address>
-  </footer><!-- /.post-info -->
   <div class="entry-content">
     <p>Separating configuration from your code itself is a good practice. Unfortunately this can quite be
 quite complex in itself. In fact it is fair to say that in many cases the use of
@@ -54,19 +46,14 @@ tests remain as-is, they are still separate from the use of the production confi
 this test does is ensure all wiring up and dependencies are satisfied. In cases where config
 from an external file is used, that too will be exercised.</p>
 <h2>Example</h2>
-<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>1
-2
-3
-4
-5
-6</pre></div></td><td class="code"><div class="highlight"><pre><span></span><span class="na">[Test]</span>
-<span class="k">public</span> <span class="k">void</span> <span class="nf">ConfigurationTest</span><span class="p">()</span>
-<span class="p">{</span>
-    <span class="kt">var</span> <span class="n">container</span> <span class="p">=</span> <span class="n">Container</span><span class="p">.</span><span class="n">Resolve</span><span class="p">();</span>
-    <span class="n">container</span><span class="p">.</span><span class="n">Resolve</span><span class="p">&lt;</span><span class="n">RootType</span><span class="p">&gt;();</span>
-<span class="p">}</span>
+<div class="highlight"><pre><span></span><span class="k">[Test]</span>
+<span class="na">public void ConfigurationTest()</span>
+<span class="na">{</span>
+    <span class="na">var container</span> <span class="o">=</span> <span class="s">Container.Resolve();</span>
+<span class="s">    container.Resolve&lt;RootType&gt;();</span>
+<span class="na">}</span>
 </pre></div>
-</td></tr></table>
+
 
 <p>The actual resolution aspect on line 5 is optional. There may be other ways to force resolution,
 this may vary based on what library you use. In this example only one type is resolved. If your
@@ -87,6 +74,14 @@ the feedback loop fast.</p>
 <li>Dynamic languages should aim to test their composition root can resolve also.</li>
 </ul>
   </div><!-- /.entry-content -->
+  <footer class="post-info">
+    <time class="published" datetime="2017-06-27T00:00:00+02:00">
+      Tue 27 June 2017
+    </time>
+    <address class="vcard author">
+      By Shaun Finglas
+    </address>
+  </footer><!-- /.post-info -->
 </section>
         <footer id="contentinfo" class="body">
                 <p>Disclaimer: The posts on this site are my own and don't necessarily represent my employers positions, strategies, or opinions.</p>

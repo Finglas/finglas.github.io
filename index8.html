@@ -3,24 +3,40 @@
 <head>
         <title>Shaun Finglas</title>
         <meta charset="utf-8" />
-        <link href="https://blog.shaunfinglas.co.uk/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Shaun Finglas Full Atom Feed" />
-        <link rel="stylesheet" href="https://blog.shaunfinglas.co.uk/theme/css/main.css" />
+        <link href="https://blog.shaunfinglas.co.uk/feeds/posts/default.xml" type="application/atom+xml" rel="alternate" title="Shaun Finglas Full Atom Feed" />
+        <link rel="stylesheet" href="./theme/css/main.css" />
 </head>
 
 <body id="index" class="home">
         <header id="banner" class="body">
-                <h1><a href="https://blog.shaunfinglas.co.uk/">Shaun Finglas <strong>Tech Blog</strong></a></h1>
+                <h1><a href="./">Shaun Finglas <strong>Tech Blog</strong></a></h1>
         </header><!-- /#banner -->
         <nav id="menu"><ul>
-            <li><a href="https://blog.shaunfinglas.co.uk/pages/about.html">About Me</a></li>
-            <li><a href="https://blog.shaunfinglas.co.uk/pages/series.html">Series</a></li>
+            <li><a href="./pages/about.html">About Me</a></li>
+            <li><a href="./pages/series.html">Series</a></li>
         </ul></nav><!-- /#menu -->
 <section id="content">
 <h2>Posts</h2>
 
 <ol id="post-list">
         <li><article class="hentry">
-                <header> <h2 class="entry-title"><a href="https://blog.shaunfinglas.co.uk/2015/03/dependency-elimination-principle.html" rel="bookmark" title="Permalink to Dependency Elimination Principle">Dependency Elimination Principle</a></h2> </header>
+                <header> <h2 class="entry-title"><a href="./2015/04/randomly-generated-values-in-tests.html" rel="bookmark" title="Permalink to Randomly Generated Values in Tests">Randomly Generated Values in Tests</a></h2> </header>
+                <footer class="post-info">
+                    <time class="published" datetime="2015-04-01T00:00:00+02:00"> Wed 01 April 2015 </time>
+                    <address class="vcard author">By Shaun Finglas
+                    </address>
+                </footer><!-- /.post-info -->
+                <div class="entry-content"> <p>The use of randomly generated test data seems like a good thing at first
+glance. Having worked with several teams that have used this concept I
+generally discourage the practice. Consider a simple method that joins
+together two strings. A test using random values may look like this.</p>
+<script src="https://gist.github.com/Finglas/a52ff8867d6af0757059.js"></script>
+
+<h4>Problems</h4>
+<h5>Harder …</h5> </div><!-- /.entry-content -->
+        </article></li>
+        <li><article class="hentry">
+                <header> <h2 class="entry-title"><a href="./2015/03/dependency-elimination-principle.html" rel="bookmark" title="Permalink to Dependency Elimination Principle">Dependency Elimination Principle</a></h2> </header>
                 <footer class="post-info">
                     <time class="published" datetime="2015-03-01T00:00:00+01:00"> Sun 01 March 2015 </time>
                     <address class="vcard author">By Shaun Finglas
@@ -40,7 +56,7 @@ possible</a>.</p>
 <p>You can take this idea further though, by applying concepts …</p> </div><!-- /.entry-content -->
         </article></li>
         <li><article class="hentry">
-                <header> <h2 class="entry-title"><a href="https://blog.shaunfinglas.co.uk/2015/03/remote-meetings-balancing-act.html" rel="bookmark" title="Permalink to Remote Meetings - Balancing the Act">Remote Meetings - Balancing the Act</a></h2> </header>
+                <header> <h2 class="entry-title"><a href="./2015/03/remote-meetings-balancing-act.html" rel="bookmark" title="Permalink to Remote Meetings - Balancing the Act">Remote Meetings - Balancing the Act</a></h2> </header>
                 <footer class="post-info">
                     <time class="published" datetime="2015-03-01T00:00:00+01:00"> Sun 01 March 2015 </time>
                     <address class="vcard author">By Shaun Finglas
@@ -53,7 +69,7 @@ meeting. Remote workers can find it hard to add to the meeting without
 interrupting or getting left behind …</p> </div><!-- /.entry-content -->
         </article></li>
         <li><article class="hentry">
-                <header> <h2 class="entry-title"><a href="https://blog.shaunfinglas.co.uk/2015/03/reused-abstraction-principle.html" rel="bookmark" title="Permalink to Reused Abstraction Principle">Reused Abstraction Principle</a></h2> </header>
+                <header> <h2 class="entry-title"><a href="./2015/03/reused-abstraction-principle.html" rel="bookmark" title="Permalink to Reused Abstraction Principle">Reused Abstraction Principle</a></h2> </header>
                 <footer class="post-info">
                     <time class="published" datetime="2015-03-01T00:00:00+01:00"> Sun 01 March 2015 </time>
                     <address class="vcard author">By Shaun Finglas
@@ -73,7 +89,7 @@ been incredibly guilty of this in the past.</p>
 <p>Most code …</p> </div><!-- /.entry-content -->
         </article></li>
         <li><article class="hentry">
-                <header> <h2 class="entry-title"><a href="https://blog.shaunfinglas.co.uk/2014/08/acceptance-testing-need-not-use-full.html" rel="bookmark" title="Permalink to Acceptance Testing need not use the Full Stack">Acceptance Testing need not use the Full Stack</a></h2> </header>
+                <header> <h2 class="entry-title"><a href="./2014/08/acceptance-testing-need-not-use-full.html" rel="bookmark" title="Permalink to Acceptance Testing need not use the Full Stack">Acceptance Testing need not use the Full Stack</a></h2> </header>
                 <footer class="post-info">
                     <time class="published" datetime="2015-02-10T20:15:00+01:00"> Tue 10 February 2015 </time>
                     <address class="vcard author">By Shaun Finglas
@@ -88,7 +104,7 @@ been incredibly guilty of this in the past.</p>
 <li>Surely this would solve our …</li></ul> </div><!-- /.entry-content -->
         </article></li>
         <li><article class="hentry">
-                <header> <h2 class="entry-title"><a href="https://blog.shaunfinglas.co.uk/2015/02/value-object-refactoring.html" rel="bookmark" title="Permalink to Value Object Refactoring">Value Object Refactoring</a></h2> </header>
+                <header> <h2 class="entry-title"><a href="./2015/02/value-object-refactoring.html" rel="bookmark" title="Permalink to Value Object Refactoring">Value Object Refactoring</a></h2> </header>
                 <footer class="post-info">
                     <time class="published" datetime="2015-02-03T20:36:00+01:00"> Tue 03 February 2015 </time>
                     <address class="vcard author">By Shaun Finglas
@@ -101,7 +117,7 @@ known from Domain Driven Design, DDD is not a pre-requresite for use.
 Introducing a value …</p> </div><!-- /.entry-content -->
         </article></li>
         <li><article class="hentry">
-                <header> <h2 class="entry-title"><a href="https://blog.shaunfinglas.co.uk/2015/02/consistency.html" rel="bookmark" title="Permalink to Consistency">Consistency</a></h2> </header>
+                <header> <h2 class="entry-title"><a href="./2015/02/consistency.html" rel="bookmark" title="Permalink to Consistency">Consistency</a></h2> </header>
                 <footer class="post-info">
                     <time class="published" datetime="2015-02-01T00:00:00+01:00"> Sun 01 February 2015 </time>
                     <address class="vcard author">By Shaun Finglas
@@ -114,7 +130,7 @@ patterns and practices. However there are two sides to this view.</p>
 frameworks, styles and conventions. This is a …</p> </div><!-- /.entry-content -->
         </article></li>
         <li><article class="hentry">
-                <header> <h2 class="entry-title"><a href="https://blog.shaunfinglas.co.uk/2015/02/guard-clauses-and-assertions.html" rel="bookmark" title="Permalink to Guard Clauses and Assertions">Guard Clauses and Assertions</a></h2> </header>
+                <header> <h2 class="entry-title"><a href="./2015/02/guard-clauses-and-assertions.html" rel="bookmark" title="Permalink to Guard Clauses and Assertions">Guard Clauses and Assertions</a></h2> </header>
                 <footer class="post-info">
                     <time class="published" datetime="2015-02-01T00:00:00+01:00"> Sun 01 February 2015 </time>
                     <address class="vcard author">By Shaun Finglas
@@ -131,7 +147,7 @@ assertions are used liberally.</p>
 <li>Throw exceptions, because …</li></ul> </div><!-- /.entry-content -->
         </article></li>
         <li><article class="hentry">
-                <header> <h2 class="entry-title"><a href="https://blog.shaunfinglas.co.uk/2015/01/abstract-data-use-not-data-access.html" rel="bookmark" title="Permalink to Abstract Data Use Not Data Access">Abstract Data Use Not Data Access</a></h2> </header>
+                <header> <h2 class="entry-title"><a href="./2015/01/abstract-data-use-not-data-access.html" rel="bookmark" title="Permalink to Abstract Data Use Not Data Access">Abstract Data Use Not Data Access</a></h2> </header>
                 <footer class="post-info">
                     <time class="published" datetime="2015-01-01T00:00:00+01:00"> Thu 01 January 2015 </time>
                     <address class="vcard author">By Shaun Finglas
@@ -151,7 +167,7 @@ an extra layer of indirection. One such benefit of this level of
 indirection is each concrete …</p> </div><!-- /.entry-content -->
         </article></li>
         <li><article class="hentry">
-                <header> <h2 class="entry-title"><a href="https://blog.shaunfinglas.co.uk/2015/01/caching.html" rel="bookmark" title="Permalink to Caching">Caching</a></h2> </header>
+                <header> <h2 class="entry-title"><a href="./2015/01/caching.html" rel="bookmark" title="Permalink to Caching">Caching</a></h2> </header>
                 <footer class="post-info">
                     <time class="published" datetime="2015-01-01T00:00:00+01:00"> Thu 01 January 2015 </time>
                     <address class="vcard author">By Shaun Finglas
@@ -166,7 +182,7 @@ machine.</p>
 <li>No Time to …</li></ul> </div><!-- /.entry-content -->
         </article></li>
         <li><article class="hentry">
-                <header> <h2 class="entry-title"><a href="https://blog.shaunfinglas.co.uk/2015/01/recommended-reading-list-2014.html" rel="bookmark" title="Permalink to Recommended Reading List 2014">Recommended Reading List 2014</a></h2> </header>
+                <header> <h2 class="entry-title"><a href="./2015/01/recommended-reading-list-2014.html" rel="bookmark" title="Permalink to Recommended Reading List 2014">Recommended Reading List 2014</a></h2> </header>
                 <footer class="post-info">
                     <time class="published" datetime="2015-01-01T00:00:00+01:00"> Thu 01 January 2015 </time>
                     <address class="vcard author">By Shaun Finglas
@@ -196,7 +212,7 @@ no particular order.</p>
 <li><a href="http://www.amazon.co.uk/Core-HTML5-Canvas-Animation-Development/dp/0132761610">Core …</a></li></ul> </div><!-- /.entry-content -->
         </article></li>
         <li><article class="hentry">
-                <header> <h2 class="entry-title"><a href="https://blog.shaunfinglas.co.uk/2015/01/why-technical-blogging.html" rel="bookmark" title="Permalink to Why Technical Blogging?">Why Technical Blogging?</a></h2> </header>
+                <header> <h2 class="entry-title"><a href="./2015/01/why-technical-blogging.html" rel="bookmark" title="Permalink to Why Technical Blogging?">Why Technical Blogging?</a></h2> </header>
                 <footer class="post-info">
                     <time class="published" datetime="2015-01-01T00:00:00+01:00"> Thu 01 January 2015 </time>
                     <address class="vcard author">By Shaun Finglas
@@ -209,31 +225,11 @@ while answering "<em>Why bother with technical blogging?</em>".</p>
 focus. This blog focuses on programming and software development related
 topics, so anything that falls within …</p> </div><!-- /.entry-content -->
         </article></li>
-        <li><article class="hentry">
-                <header> <h2 class="entry-title"><a href="https://blog.shaunfinglas.co.uk/2014/12/a-unit-is-not-always-method-or-class.html" rel="bookmark" title="Permalink to A Unit is Not Always a Method or Class">A Unit is Not Always a Method or Class</a></h2> </header>
-                <footer class="post-info">
-                    <time class="published" datetime="2014-12-01T00:00:00+01:00"> Mon 01 December 2014 </time>
-                    <address class="vcard author">By Shaun Finglas
-                    </address>
-                </footer><!-- /.post-info -->
-                <div class="entry-content"> <p>Part three of my <a href="https://blog.shaunfinglas.co.uk/2014/12/three-steps-to-code-quality-via-tdd.html">Three Steps to Code Quality via TDD
-series</a>.
-The most important concept when coupled with the previous two points -
-not every unit will relate to a method or class.</p>
-<ul>
-<li>Part 1 - <a href="https://blog.shaunfinglas.co.uk/2014/12/stop-making-everything-public.html">Stop Making Everything
-    Public</a></li>
-<li>Part 2 - <a href="https://blog.shaunfinglas.co.uk/2014/12/limit-amount-of-dependencies-you-use.html">Limit the Amount of Dependencies you
-    Use</a></li>
-</ul>
-<hr>
-<p>Most introductions …</p> </div><!-- /.entry-content -->
-        </article></li>
 </ol><!-- /#posts-list -->
 <p class="paginator">
-        <a href="https://blog.shaunfinglas.co.uk/index7.html">&laquo;</a>
+        <a href="./index7.html">&laquo;</a>
     Page 8 / 13
-        <a href="https://blog.shaunfinglas.co.uk/index9.html">&raquo;</a>
+        <a href="./index9.html">&raquo;</a>
 </p>
 </section><!-- /#content -->
         <footer id="contentinfo" class="body">

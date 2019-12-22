@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+          <title>Shaun Finglas</title>
+        <meta charset="utf-8" />
+        <link href="https://blog.shaunfinglas.co.uk/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Shaun Finglas Full Atom Feed" />
+        <link href="https://blog.shaunfinglas.co.uk/feeds/2019.atom.xml" type="application/atom+xml" rel="alternate" title="Shaun Finglas Categories Atom Feed" />
+
+
+    <meta name="tags" content="software-development" />
+
+        <link rel="stylesheet" href="https://blog.shaunfinglas.co.uk/theme/css/main.css" />
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="https://blog.shaunfinglas.co.uk/">Shaun Finglas <strong>- Programming</strong></a></h1>
+        </header><!-- /#banner -->
+        <nav id="menu">
+          <ul>
+            <li><a href="https://blog.shaunfinglas.co.uk/pages/about.html">About</a></li>
+            <li><a href="https://blog.shaunfinglas.co.uk/pages/series.html">Series</a></li>
+            <li><a href="https://blog.shaunfinglas.co.uk/archives.html">Archives</a></li>
+          </ul>
+        </nav><!-- /#menu -->
+<section id="content" class="body">
+  <header>
+    <h2 class="entry-title">
+      <a href="https://blog.shaunfinglas.co.uk/2019/22/refactoring-ci-build-pipelines.html" rel="bookmark"
+         title="Permalink to Refactoring CI Build Pipelines">Refactoring CI Build Pipelines</a></h2>
+ 
+  </header>
+  <div class="entry-content">
+    <h3>Problem with CI Tooling</h3>
+<p>CI tools such as Team City are great. They provide a nice front end that can be used as control for all your builds. The likes of triggers, test results and build history are some of the stand out features.</p>
+<p>In addition to these features there is a whole host of other functionality that is built in. Just try and add a new step, the dropdown will contain many different tools that can easily be configured. </p>
+<p>My problem here is that configuring your build pipeline via these tools is asking for trouble. In fact I would go as far as to say that the use of these tools to control your build is an extremely poor practice that should be avoided.</p>
+<ol>
+<li>
+<p>It ties you to that particular tool. While it is not hugely common to switch CI tools I have repeated this task several times over several companies. It does happen.</p>
+</li>
+<li>
+<p>Feedback is slowed down. If you wish to make a change you either need to commit or modify the pipeline. This either works or if it doesn't breaks the build for everyone else. If the key to success in DevOps is fast feedback, this style of work is not compatible. The use of a test CI pipeline is an overhead.</p>
+</li>
+<li>
+<p>Depending on the type of company you work for, you may or may not have full control over the CI environment. This further limits speed of feedback and experimentation.</p>
+</li>
+<li>
+<p>Source control is an issue with such tools. While it is possible to see and audit changes this is separate to your standard source control. If build <code>1.2.3</code> is produced it should contain all changes for that version, including build steps or deployment changes. I don't want these stored in an external tool or proprietary format.</p>
+</li>
+</ol>
+<h3>Solution</h3>
+<p>To counter the issues above I have found a single script that can be run locally that your chosen CI tool runs is the best solution.</p>
+<p>A dedicated build script has a number of benefits when compared to hosting this logic within your CI tool. Your chosen CI tool can then simply run this build script.</p>
+<ul>
+<li>A single, simple script can run run anywhere. Locally or hosted.</li>
+<li>Avoid the use of Domain Specific Languages (DSL's) and rely on native scripts such as Bash or Powershell.</li>
+<li>Simple, native commands are able to be copy/pasted to run. This makes development nice and easy. DSL's prevent this benefit.</li>
+<li>Native commands can be run which makes testing locally possible.</li>
+<li>Avoid the use of base templates or sharing between projects. Standalone build scripts per project are preferred to reduce coupling and dependencies. </li>
+<li>A project specific script is better than a generic template that tries to fit all scenarios.</li>
+<li>A native build script can be committed with the project, any changes will be tracked within source control.</li>
+</ul>
+<p>The acid test for this script is that it should be possible to run this anywhere. For example, running this against your personal Azure subscription should setup and run your application as if it was run against the real subscription. Your chosen CI tool can still provide benefits such as a nice UI, test formatting and triggers. It simply executes the script on your behalf. </p>
+<p>If additional features of your CI tool are to be used, these should be complimentary rather than required. Ideally these are setup once in a base template that can be shared between projects of a similar type. If these additional steps do not execute it should not effect the output of the build.</p>
+<h3>Refactoring</h3>
+<p>A previous pipeline had a setup similar to the following, all configured in Team City. In other words, other than building and running tests locally within Visual Studio all the remaining build steps were only run on commit. The steps I took to refactor this are detailed.</p>
+<ol>
+<li>Build</li>
+<li>Run Tests</li>
+<li>Package Integration Tests</li>
+<li>Package Acceptance Tests</li>
+<li>Package Application</li>
+<li>Publish Application</li>
+<li>Publish Test Packages</li>
+</ol>
+<p>The first step in this refactor is to add step zero that will run the build script before anything else.</p>
+<ol>
+<li>Run Build</li>
+<li>Build</li>
+<li>Run Tests</li>
+<li>Package Integration Tests</li>
+<li>Package Acceptance Tests</li>
+<li>Package Application</li>
+<li>Publish Application</li>
+<li>Publish Test Packages</li>
+</ol>
+<p>Step zero initially will do nothing. Just execute the build script and return. If you can complete this step you are in a good place to start.</p>
+<p>The next step will be to move step 1 into the build script. There are a number of ways to do this and validate the porting. You can check the Team City steps and use the same underlying command and parameters. To validate you can compare the output from the build script against the build output from Team City. In verbose mode the server will log the commands and parameters to stdout. </p>
+<p>After successfully porting step 1 disable this step in Team City. This acts as your backup, if you wish to revert you can do so easily by just enabling the step.</p>
+<p>The next part of this refactor is to actually test your builds. I suggest at least one deploy goes through and is deployed successfully for each step that is ported. While this is slower, it proves the porting is successful and will highlight any issues within a small scope. Slow and steady wins here.</p>
+<ol>
+<li>Run Build</li>
+<li><del><em>Build</em></del> (Disabled)</li>
+<li>Run Tests</li>
+<li>Package Integration Tests</li>
+<li>Package Acceptance Tests</li>
+<li>Package Application</li>
+<li>Publish Application</li>
+<li>Publish Test Packages</li>
+</ol>
+<p>Rinse repeat this process for each of the other steps. </p>
+<ul>
+<li>Port</li>
+<li>Disable</li>
+<li>Deploy</li>
+<li>Go to next step</li>
+</ul>
+<p>Once all steps that you wish to port are disabled I suggest leaving a small period for the script to bed in. Once you're happy then the disabled steps can be deleted. </p>
+<p>The ideal scenario here is that as much as the build is ported into the dedicated build script, with the only remaining steps either specific to your CI tool or base template specific. The true acid test here is that the script can be run <em>anywhere</em> as detailed previously.</p>
+  </div><!-- /.entry-content -->
+  <footer class="post-info">
+    <time class="published" datetime="2019-12-22T00:00:00+01:00">
+      Sun 22 December 2019
+    </time>
+    <address class="vcard author">
+      By Shaun Finglas
+    </address>
+  </footer><!-- /.post-info -->
+</section>
+        <footer id="contentinfo" class="body">
+                <p>Disclaimer: The posts on this site are my own and don't necessarily represent my employers positions, strategies, or opinions.</p>
+                <p>Copyright © Shaun Finglas 2019</p><!-- /#about -->
+        </footer><!-- /#contentinfo -->
+</body>
+</html>
